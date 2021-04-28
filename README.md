@@ -75,8 +75,9 @@ An Imitation Learning Approach for Cache Replacement (opt attempt)
 
 https://arxiv.org/pdf/2006.16239.pdf
 
-  
-  
+
+Caching Is Hard—Even in the Fault Model
+  https://core.ac.uk/download/pdf/81860263.pdf
 
 Caching strategies :
 
@@ -169,5 +170,5 @@ counterStack 2014
 
 Src: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTM0NTM0OF19
+eyJoaXN0b3J5IjpbLTIxMzA5MTMxODgsLTk2NTM0NTM0OF19
 -->
