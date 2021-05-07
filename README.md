@@ -105,6 +105,15 @@ LHD
 - github(src): [https://github.com/CMU-CORGI/LHD](https://github.com/CMU-CORGI/LHD)
 
   
+An Imitation Learning Approach for Cache Replacement (opt attempt)
+- https://arxiv.org/pdf/2006.16239.pdf
+
+
+Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
+
+(follow after twitter trace paper) (TTL)
+
+https://www.usenix.org/system/files/nsdi21-yang.pdf
 
 ## Cache MRC & Stack:
 
@@ -131,7 +140,8 @@ CounterStack 2014
 
 ## Caching Theory
 
-
+Caching Is Hard—Even in the Fault Model
+ - https://core.ac.uk/download/pdf/81860263.pdf
 
 ## Relevant Data structure:
 
@@ -158,6 +168,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nz
-g1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbODYxMDk5ODE0LDEyMjM3OTYyNSwtNzcwNT
+c1NDE0LDcxNDc4NTczMywtMjEzMDkxMzE4OCwtOTY1MzQ1MzQ4
+XX0=
 -->
