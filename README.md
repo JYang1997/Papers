@@ -5,7 +5,11 @@ TODO :
 
 Practical Bounds on Optimal Caching with Variable Object Sizes
 
-[http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf)
+- [http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf)
+
+Optimal Data Placement for Heterogeneous Cache, Memory, and Storage Systems
+
+- [https://www.ymsir.com/papers/chopt-sigmetrics.pdf](https://www.ymsir.com/papers/chopt-sigmetrics.pdf)
 
 Efficient stack distance computation for priority replacement policies, 2011
 (generalized min tree algorithm)
@@ -30,9 +34,7 @@ Src: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterst
   
   
 
-Optimal Data Placement for Heterogeneous Cache, Memory, and Storage Systems
 
-[https://www.ymsir.com/papers/chopt-sigmetrics.pdf](https://www.ymsir.com/papers/chopt-sigmetrics.pdf)
 
   
   
@@ -131,6 +133,10 @@ Practical Bounds on Optimal Caching with Variable Object Sizes
 
 - [http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf)
 
+Optimal Data Placement for Heterogeneous Cache, Memory, and Storage Systems
+
+-[https://www.ymsir.com/papers/chopt-sigmetrics.pdf](https://www.ymsir.com/papers/chopt-sigmetrics.pdf)
+
 Efficient stack distance computation for priority replacement policies, 2011
 (generalized min tree algorithm)
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
@@ -166,7 +172,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDk3MDc1Niw1MTEwMjMwODUsNDQ1NT
-g3ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1LC03NzA1NzU0MTQs
-NzE0Nzg1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbLTIxMjQzNTU3ODQsNTExMDIzMDg1LDQ0NT
+U4NzgyMSwxNjk1NTMwMTE3LDEyMjM3OTYyNSwtNzcwNTc1NDE0
+LDcxNDc4NTczMywtMjEzMDkxMzE4OCwtOTY1MzQ1MzQ4XX0=
 -->
