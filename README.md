@@ -13,7 +13,8 @@ Optimal Data Placement for Heterogeneous Cache, Memory, and Storage Systems
 
 Efficient stack distance computation for priority replacement policies, 2011
 (generalized min tree algorithm)
-[https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
+
+- [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
 
   
 
@@ -167,8 +168,8 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ3ODYwNzAsLTI3MTIwMDE3OCwtMj
-EyNDM1NTc4NCw1MTEwMjMwODUsNDQ1NTg3ODIxLDE2OTU1MzAx
-MTcsMTIyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMT
-MwOTEzMTg4LC05NjUzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbLTU0MzAzNjIwOSwtMTg5NDc4NjA3MCwtMj
+cxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NSw0NDU1ODc4
+MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3NTQxNCw3MT
+Q3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0OF19
 -->
