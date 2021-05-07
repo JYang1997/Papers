@@ -143,33 +143,25 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 
 ## Cache MRC & Stack:
 
-  
+ 
 
 Mattson 1970
 
-[https://pdfs.semanticscholar.org/4a58/e3066f12bb86d7aef2776e9d8a2a4e4daf3e.pdf](https://pdfs.semanticscholar.org/4a58/e3066f12bb86d7aef2776e9d8a2a4e4daf3e.pdf)
-
-  
+- [https://pdfs.semanticscholar.org/4a58/e3066f12bb86d7aef2776e9d8a2a4e4daf3e.pdf](https://pdfs.semanticscholar.org/4a58/e3066f12bb86d7aef2776e9d8a2a4e4daf3e.pdf)
 
 statCache 2003
-
-[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.399&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.399&rep=rep1&type=pdf)
-
-  
+- [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.399&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.399&rep=rep1&type=pdf)
 
 Statstack 2010
+- [https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.220.6752&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.220.6752&rep=rep1&type=pdf)
 
-[https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.220.6752&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.220.6752&rep=rep1&type=pdf)
+ 
+CounterStack 2014
 
-  
-  
+- [https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
 
-counterStack 2014
-
-[https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
-
-Src: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
+- SRC: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI0NTc1MjEsLTIxMzA5MTMxODgsLT
-k2NTM0NTM0OF19
+eyJoaXN0b3J5IjpbMTk2MDI5NzgsLTIxMzA5MTMxODgsLTk2NT
+M0NTM0OF19
 -->
