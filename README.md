@@ -11,47 +11,42 @@ Optimal Data Placement for Heterogeneous Cache, Memory, and Storage Systems
 
 - [https://www.ymsir.com/papers/chopt-sigmetrics.pdf](https://www.ymsir.com/papers/chopt-sigmetrics.pdf)
 
+Caching Is Hard—Even in the Fault Model
+- https://core.ac.uk/download/pdf/81860263.pdf
+
 Efficient stack distance computation for priority replacement policies, 2011
 (generalized min tree algorithm)
 
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
 
-  
-
+ 
 Optimal On-Line Computation of Stack Distances for MIN and OPT∗
-
-[https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
+-[https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
 
   
 
 counterStack 2014
 
-[https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
-
-Src: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
+- [https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
 
 Adaptive TTL-Based Caching for Content Delivery
 
 (Expiration related solution for CDN cache 2017) (see arxiv for full work)
 
-[https://dl.acm.org/doi/pdf/10.1145/3078505.3078560](https://dl.acm.org/doi/pdf/10.1145/3078505.3078560)
+- [https://dl.acm.org/doi/pdf/10.1145/3078505.3078560](https://dl.acm.org/doi/pdf/10.1145/3078505.3078560)
 
  
 Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
-
 (follow after twitter trace paper) (TTL)
 
-https://www.usenix.org/system/files/nsdi21-yang.pdf
+- https://www.usenix.org/system/files/nsdi21-yang.pdf
 
   
 
 An Imitation Learning Approach for Cache Replacement (opt attempt)
 
-https://arxiv.org/pdf/2006.16239.pdf
+- https://arxiv.org/pdf/2006.16239.pdf
 
-
-Caching Is Hard—Even in the Fault Model
-  https://core.ac.uk/download/pdf/81860263.pdf
 
 ## Caching Policies & Design :
 
@@ -168,8 +163,8 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzAzNjIwOSwtMTg5NDc4NjA3MCwtMj
-cxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NSw0NDU1ODc4
-MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3NTQxNCw3MT
-Q3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0OF19
+eyJoaXN0b3J5IjpbLTIwMTI4MzI4ODgsLTE4OTQ3ODYwNzAsLT
+I3MTIwMDE3OCwtMjEyNDM1NTc4NCw1MTEwMjMwODUsNDQ1NTg3
+ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1LC03NzA1NzU0MTQsNz
+E0Nzg1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
 -->
