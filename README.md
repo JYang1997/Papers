@@ -116,6 +116,16 @@ Statstack 2010
  
 CounterStack 2014
 
+- [https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
+
+- SRC: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
+
+
+
+## Caching Theory
+
+Caching Is Hard—Even in the Fault Model
+ - https://core.ac.uk/download/pdf/81860263.pdf
 
 Practical Bounds on Optimal Caching with Variable Object Sizes
 
@@ -127,18 +137,11 @@ Efficient stack distance computation for priority replacement policies, 2011
 
   
 
-Optimal On-Line Computation of Stack Distances for MIN and OPT∗
+Optimal On-Line Computation of Stack Distances for MIN and
+
+OPT∗
 
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
-
-
-
-
-
-## Caching Theory
-
-Caching Is Hard—Even in the Fault Model
- - https://core.ac.uk/download/pdf/81860263.pdf
 
 ## Relevant Data structure:
 
@@ -165,7 +168,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIyNTgxMjIsNTExMDIzMDg1LDQ0NT
-U4NzgyMSwxNjk1NTMwMTE3LDEyMjM3OTYyNSwtNzcwNTc1NDE0
-LDcxNDc4NTczMywtMjEzMDkxMzE4OCwtOTY1MzQ1MzQ4XX0=
+eyJoaXN0b3J5IjpbMTgzNjE5NTg2Niw1MTEwMjMwODUsNDQ1NT
+g3ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1LC03NzA1NzU0MTQs
+NzE0Nzg1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
 -->
