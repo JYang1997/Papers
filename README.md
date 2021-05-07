@@ -93,6 +93,8 @@ Segcache: a memory-efficient and scalable in-memory key-value cache for small ob
 
 - https://www.usenix.org/system/files/nsdi21-yang.pdf
 
+### Expire related solution
+
 ## Cache MRC & Stack:
 
  
@@ -172,7 +174,8 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQzNTU3ODQsNTExMDIzMDg1LDQ0NT
-U4NzgyMSwxNjk1NTMwMTE3LDEyMjM3OTYyNSwtNzcwNTc1NDE0
-LDcxNDc4NTczMywtMjEzMDkxMzE4OCwtOTY1MzQ1MzQ4XX0=
+eyJoaXN0b3J5IjpbLTI3MTIwMDE3OCwtMjEyNDM1NTc4NCw1MT
+EwMjMwODUsNDQ1NTg3ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1
+LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMTMwOTEzMTg4LC05Nj
+UzNDUzNDhdfQ==
 -->
