@@ -23,7 +23,7 @@ Efficient stack distance computation for priority replacement policies, 2011
 Optimal On-Line Computation of Stack Distances for MIN and OPT∗
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
 
-  
+
 
 counterStack 2014
 
@@ -47,6 +47,9 @@ An Imitation Learning Approach for Cache Replacement (opt attempt)
 
 - https://arxiv.org/pdf/2006.16239.pdf
 
+Tail at scale
+
+- https://cseweb.ucsd.edu/classes/sp18/cse124-a/post/schedule/p74-dean.pdf
 
 ## Caching Policies & Design :
 
@@ -132,15 +135,15 @@ Efficient stack distance computation for priority replacement policies, 2011
 (generalized min tree algorithm)
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
 
-  
 
 Optimal On-Line Computation of Stack Distances for MIN and OPT∗
 
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
 
-## Relevant Data structure:
 
-  
+##  Caching analysis
+
+## Relevant Data structure:
 
 Cuckoo Filter: Practically Better Than Bloom
 
@@ -163,8 +166,9 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjU3NTc4NCwtMTg5NDc4NjA3MCwtMj
-cxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NSw0NDU1ODc4
-MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3NTQxNCw3MT
-Q3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0OF19
+eyJoaXN0b3J5IjpbNTQ5MDcwNzQzLC05MzI1NzU3ODQsLTE4OT
+Q3ODYwNzAsLTI3MTIwMDE3OCwtMjEyNDM1NTc4NCw1MTEwMjMw
+ODUsNDQ1NTg3ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1LC03Nz
+A1NzU0MTQsNzE0Nzg1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUz
+NDhdfQ==
 -->
