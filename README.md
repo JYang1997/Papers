@@ -86,35 +86,24 @@ Caching Is Hard—Even in the Fault Model
   
 A Survey of Web Cache Replacement Strategies
 
-[https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/954339.954341](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/954339.954341)
+- [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/954339.954341](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/954339.954341)
 
   
   
 
 From FIFO to Predictive Cache Replacement (cache replacement strategy Survey)
 
-[https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2019-06-1/NET-2019-06-1_06.pdf](https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2019-06-1/NET-2019-06-1_06.pdf)
-
-  
-  
+- [https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2019-06-1/NET-2019-06-1_06.pdf](https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2019-06-1/NET-2019-06-1_06.pdf)
 
 Cacheus (adaptive caching)
-
-[https://www.usenix.org/system/files/fast21-rodriguez.pdf](https://www.usenix.org/system/files/fast21-rodriguez.pdf)
-
-  
+- [https://www.usenix.org/system/files/fast21-rodriguez.pdf](https://www.usenix.org/system/files/fast21-rodriguez.pdf)
 
 LHD
 
-[https://www.usenix.org/system/files/conference/nsdi18/nsdi18-beckmann.pdf](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-beckmann.pdf)
+- [https://www.usenix.org/system/files/conference/nsdi18/nsdi18-beckmann.pdf](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-beckmann.pdf)
 
-github(src)
+- github(src): [https://github.com/CMU-CORGI/LHD](https://github.com/CMU-CORGI/LHD)
 
-[https://github.com/CMU-CORGI/LHD](https://github.com/CMU-CORGI/LHD)
-
-  
- 
-  
   
 
 ## Cache MRC & Stack:
@@ -169,6 +158,6 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDU3NTQxNCw3MTQ3ODU3MzMsLTIxMz
-A5MTMxODgsLTk2NTM0NTM0OF19
+eyJoaXN0b3J5IjpbMTIyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nz
+g1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
 -->
