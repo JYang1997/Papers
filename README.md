@@ -123,8 +123,9 @@ CounterStack 2014
 Caching Is Hard—Even in the Fault Model
  - https://core.ac.uk/download/pdf/81860263.pdf
 
-General Caching Is Hard: Even with Small Pages- Lukáš Folwarczný, 2015
-https://arxiv.org/pdf/1506.07905.pdf
+General Caching Is Hard: Even with Small Pages - Lukáš Folwarczný, 2015
+- https://arxiv.org/pdf/1506.07905.pdf
+
 Practical Bounds on Optimal Caching with Variable Object Sizes
 
 - [http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf)
@@ -168,9 +169,9 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA3NTMzMjgsNTQ5MDcwNzQzLC05Mz
-I1NzU3ODQsLTE4OTQ3ODYwNzAsLTI3MTIwMDE3OCwtMjEyNDM1
-NTc4NCw1MTEwMjMwODUsNDQ1NTg3ODIxLDE2OTU1MzAxMTcsMT
-IyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMTMwOTEz
-MTg4LC05NjUzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbLTI5MjA2Mzc4Nyw1NDkwNzA3NDMsLTkzMj
+U3NTc4NCwtMTg5NDc4NjA3MCwtMjcxMjAwMTc4LC0yMTI0MzU1
+Nzg0LDUxMTAyMzA4NSw0NDU1ODc4MjEsMTY5NTUzMDExNywxMj
+IzNzk2MjUsLTc3MDU3NTQxNCw3MTQ3ODU3MzMsLTIxMzA5MTMx
+ODgsLTk2NTM0NTM0OF19
 -->
