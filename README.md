@@ -81,10 +81,9 @@ https://arxiv.org/pdf/2006.16239.pdf
 Caching Is Hard—Even in the Fault Model
   https://core.ac.uk/download/pdf/81860263.pdf
 
-Caching strategies :
+## Caching Policies & Design :
 
   
-
 A Survey of Web Cache Replacement Strategies
 
 [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/954339.954341](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/954339.954341)
@@ -139,6 +138,12 @@ CounterStack 2014
 
 - SRC: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
 
+
+
+## Caching Theory
+
+
+
 ## Relevant Data structure:
 
   
@@ -164,6 +169,6 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0Nzg1NzMzLC0yMTMwOTEzMTg4LC05Nj
-UzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbLTc3MDU3NTQxNCw3MTQ3ODU3MzMsLTIxMz
+A5MTMxODgsLTk2NTM0NTM0OF19
 -->
