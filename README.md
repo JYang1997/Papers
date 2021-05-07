@@ -31,14 +31,6 @@ counterStack 2014
 
 Src: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
 
-  
-  
-
-
-
-  
-  
-
 Adaptive TTL-Based Caching for Content Delivery
 
 (Expiration related solution for CDN cache 2017) (see arxiv for full work)
@@ -174,8 +166,8 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTc3MjExMjgsLTI3MTIwMDE3OCwtMj
-EyNDM1NTc4NCw1MTEwMjMwODUsNDQ1NTg3ODIxLDE2OTU1MzAx
-MTcsMTIyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMT
-MwOTEzMTg4LC05NjUzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbMTU1NTQ5MjY4MCwtMjcxMjAwMTc4LC0yMT
+I0MzU1Nzg0LDUxMTAyMzA4NSw0NDU1ODc4MjEsMTY5NTUzMDEx
+NywxMjIzNzk2MjUsLTc3MDU3NTQxNCw3MTQ3ODU3MzMsLTIxMz
+A5MTMxODgsLTk2NTM0NTM0OF19
 -->
