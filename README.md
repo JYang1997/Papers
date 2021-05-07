@@ -9,15 +9,7 @@ Practical Bounds on Optimal Caching with Variable Object Sizes
 
 [http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf)
 
-  
-
-Estimating Cache Misses and Locality Using Stack Distances
-
-[http://polaris.cs.uiuc.edu/publications/p183-cascaval.pdf](http://polaris.cs.uiuc.edu/publications/p183-cascaval.pdf)
-
-
-
-  
+ 
 
 Efficient stack distance computation for priority replacement policies, 2011
 
@@ -119,6 +111,11 @@ Mattson 1970
 Calculating Stack Distances Efficiently 2001
 - [https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9028&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9028&rep=rep1&type=pdf)
 
+Estimating Cache Misses and Locality Using Stack Distances
+
+- [http://polaris.cs.uiuc.edu/publications/p183-cascaval.pdf](http://polaris.cs.uiuc.edu/publications/p183-cascaval.pdf)
+
+
 statCache 2003
 - [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.399&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.399&rep=rep1&type=pdf)
 
@@ -164,7 +161,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTc5NDY2NiwxNjk1NTMwMTE3LDEyMj
-M3OTYyNSwtNzcwNTc1NDE0LDcxNDc4NTczMywtMjEzMDkxMzE4
-OCwtOTY1MzQ1MzQ4XX0=
+eyJoaXN0b3J5IjpbNDQ1NTg3ODIxLDE2OTU1MzAxMTcsMTIyMz
+c5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMTMwOTEzMTg4
+LC05NjUzNDUzNDhdfQ==
 -->
