@@ -15,11 +15,7 @@ Estimating Cache Misses and Locality Using Stack Distances
 
 [http://polaris.cs.uiuc.edu/publications/p183-cascaval.pdf](http://polaris.cs.uiuc.edu/publications/p183-cascaval.pdf)
 
-  
 
-Calculating Stack Distances Efficiently 2001
-
-[https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9028&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9028&rep=rep1&type=pdf)
 
   
 
@@ -89,8 +85,6 @@ A Survey of Web Cache Replacement Strategies
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/954339.954341](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/954339.954341)
 
   
-  
-
 From FIFO to Predictive Cache Replacement (cache replacement strategy Survey)
 
 - [https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2019-06-1/NET-2019-06-1_06.pdf](https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2019-06-1/NET-2019-06-1_06.pdf)
@@ -121,6 +115,9 @@ Segcache: a memory-efficient and scalable in-memory key-value cache for small ob
 Mattson 1970
 
 - [https://pdfs.semanticscholar.org/4a58/e3066f12bb86d7aef2776e9d8a2a4e4daf3e.pdf](https://pdfs.semanticscholar.org/4a58/e3066f12bb86d7aef2776e9d8a2a4e4daf3e.pdf)
+
+Calculating Stack Distances Efficiently 2001
+- [https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9028&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9028&rep=rep1&type=pdf)
 
 statCache 2003
 - [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.399&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.399&rep=rep1&type=pdf)
@@ -167,7 +164,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MD
-U3NTQxNCw3MTQ3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0
-OF19
+eyJoaXN0b3J5IjpbMTE4MTc5NDY2NiwxNjk1NTMwMTE3LDEyMj
+M3OTYyNSwtNzcwNTc1NDE0LDcxNDc4NTczMywtMjEzMDkxMzE4
+OCwtOTY1MzQ1MzQ4XX0=
 -->
