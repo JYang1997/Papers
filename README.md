@@ -14,6 +14,9 @@ Optimal Data Placement for Heterogeneous Cache, Memory, and Storage Systems
 Caching Is Hard—Even in the Fault Model
 - https://core.ac.uk/download/pdf/81860263.pdf
 
+General Caching Is Hard: Even with Small Pages - Lukáš Folwarczný, 2015
+- https://arxiv.org/pdf/1506.07905.pdf
+
 Efficient stack distance computation for priority replacement policies, 2011
 (generalized min tree algorithm)
 
@@ -169,7 +172,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjA2Mzc4Nyw1NDkwNzA3NDMsLTkzMj
+eyJoaXN0b3J5IjpbMTgzMjQxNDU0MSw1NDkwNzA3NDMsLTkzMj
 U3NTc4NCwtMTg5NDc4NjA3MCwtMjcxMjAwMTc4LC0yMTI0MzU1
 Nzg0LDUxMTAyMzA4NSw0NDU1ODc4MjEsMTY5NTUzMDExNywxMj
 IzNzk2MjUsLTc3MDU3NTQxNCw3MTQ3ODU3MzMsLTIxMzA5MTMx
