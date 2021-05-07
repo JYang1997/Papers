@@ -17,9 +17,7 @@ Efficient stack distance computation for priority replacement policies, 2011
 
   
 
-Optimal On-Line Computation of Stack Distances for MIN and
-
-OPT∗
+Optimal On-Line Computation of Stack Distances for MIN and OPT∗
 
 [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
 
@@ -86,6 +84,9 @@ Segcache: a memory-efficient and scalable in-memory key-value cache for small ob
 
 - https://www.usenix.org/system/files/nsdi21-yang.pdf
 
+Adaptive TTL-Based Caching for Content Delivery
+(Expiration related solution for CDN cache 2017) (see arxiv for full work)
+- [https://dl.acm.org/doi/pdf/10.1145/3078505.3078560](https://dl.acm.org/doi/pdf/10.1145/3078505.3078560)
 
 ## Cache MRC & Stack:
 
@@ -166,8 +167,8 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTQ5MjY4MCwtMjcxMjAwMTc4LC0yMT
-I0MzU1Nzg0LDUxMTAyMzA4NSw0NDU1ODc4MjEsMTY5NTUzMDEx
-NywxMjIzNzk2MjUsLTc3MDU3NTQxNCw3MTQ3ODU3MzMsLTIxMz
-A5MTMxODgsLTk2NTM0NTM0OF19
+eyJoaXN0b3J5IjpbLTE4OTQ3ODYwNzAsLTI3MTIwMDE3OCwtMj
+EyNDM1NTc4NCw1MTEwMjMwODUsNDQ1NTg3ODIxLDE2OTU1MzAx
+MTcsMTIyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMT
+MwOTEzMTg4LC05NjUzNDUzNDhdfQ==
 -->
