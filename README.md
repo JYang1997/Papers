@@ -137,9 +137,7 @@ Efficient stack distance computation for priority replacement policies, 2011
 
   
 
-Optimal On-Line Computation of Stack Distances for MIN and
-
-OPT∗
+Optimal On-Line Computation of Stack Distances for MIN and OPT∗
 
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
 
@@ -168,7 +166,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjE5NTg2Niw1MTEwMjMwODUsNDQ1NT
+eyJoaXN0b3J5IjpbLTQxNDk3MDc1Niw1MTEwMjMwODUsNDQ1NT
 g3ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1LC03NzA1NzU0MTQs
 NzE0Nzg1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
 -->
