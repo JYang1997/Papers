@@ -21,7 +21,7 @@ Efficient stack distance computation for priority replacement policies, 2011
 
  
 Optimal On-Line Computation of Stack Distances for MIN and OPT∗
--[https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
+- [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
 
   
 
@@ -163,8 +163,8 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI4MzI4ODgsLTE4OTQ3ODYwNzAsLT
-I3MTIwMDE3OCwtMjEyNDM1NTc4NCw1MTEwMjMwODUsNDQ1NTg3
-ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1LC03NzA1NzU0MTQsNz
-E0Nzg1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbLTkzMjU3NTc4NCwtMTg5NDc4NjA3MCwtMj
+cxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NSw0NDU1ODc4
+MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3NTQxNCw3MT
+Q3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0OF19
 -->
