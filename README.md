@@ -141,7 +141,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
   
   
 
-MRC Modeling:
+## Cache MRC & Stack:
 
   
 
@@ -170,5 +170,6 @@ counterStack 2014
 
 Src: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzA5MTMxODgsLTk2NTM0NTM0OF19
+eyJoaXN0b3J5IjpbLTE2NzI0NTc1MjEsLTIxMzA5MTMxODgsLT
+k2NTM0NTM0OF19
 -->
