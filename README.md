@@ -116,6 +116,24 @@ Statstack 2010
  
 CounterStack 2014
 
+
+Practical Bounds on Optimal Caching with Variable Object Sizes
+
+- [http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf)
+
+Efficient stack distance computation for priority replacement policies, 2011
+(generalized min tree algorithm)
+- [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
+
+  
+
+Optimal On-Line Computation of Stack Distances for MIN and
+
+OPT∗
+
+- [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
+
+
 - [https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
 
 - SRC: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
@@ -152,7 +170,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExMDIzMDg1LDQ0NTU4NzgyMSwxNjk1NT
-MwMTE3LDEyMjM3OTYyNSwtNzcwNTc1NDE0LDcxNDc4NTczMywt
-MjEzMDkxMzE4OCwtOTY1MzQ1MzQ4XX0=
+eyJoaXN0b3J5IjpbMTk1ODc1MDI3MCw1MTEwMjMwODUsNDQ1NT
+g3ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1LC03NzA1NzU0MTQs
+NzE0Nzg1NzMzLC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
 -->
