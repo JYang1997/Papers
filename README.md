@@ -112,32 +112,7 @@ github(src)
 [https://github.com/CMU-CORGI/LHD](https://github.com/CMU-CORGI/LHD)
 
   
-  
-
-Efficient Data structure:
-
-  
-
-Cuckoo Filter: Practically Better Than Bloom
-
-[https://www.cs.cmu.edu/~dga/papers/cuckoo-conext2014.pdf](https://www.cs.cmu.edu/~dga/papers/cuckoo-conext2014.pdf)
-
-  
-  
-
-Xor Filters: Faster and Smaller Than Bloom and Cuckoo Filters
-
-[https://arxiv.org/pdf/1912.08258.pdf](https://arxiv.org/pdf/1912.08258.pdf)
-
-This data structure doesn’t seems like a online method (not designed for modified, delete), based on authors blog [https://lemire.me/blog/2019/12/19/xor-filters-faster-and-smaller-than-bloom-filters/](https://lemire.me/blog/2019/12/19/xor-filters-faster-and-smaller-than-bloom-filters/)
-
-  
-  
-
-Multiple Set Matching and Pre-Filtering with Bloom Multifilters
-
-[https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
-
+ 
   
   
 
@@ -161,7 +136,32 @@ CounterStack 2014
 - [https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
 
 - SRC: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
+
+## Relevant Data structure:
+
+  
+
+Cuckoo Filter: Practically Better Than Bloom
+
+[https://www.cs.cmu.edu/~dga/papers/cuckoo-conext2014.pdf](https://www.cs.cmu.edu/~dga/papers/cuckoo-conext2014.pdf)
+
+  
+  
+
+Xor Filters: Faster and Smaller Than Bloom and Cuckoo Filters
+
+[https://arxiv.org/pdf/1912.08258.pdf](https://arxiv.org/pdf/1912.08258.pdf)
+
+This data structure doesn’t seems like a online method (not designed for modified, delete), based on authors blog [https://lemire.me/blog/2019/12/19/xor-filters-faster-and-smaller-than-bloom-filters/](https://lemire.me/blog/2019/12/19/xor-filters-faster-and-smaller-than-bloom-filters/)
+
+  
+  
+
+Multiple Set Matching and Pre-Filtering with Bloom Multifilters
+
+[https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDI5NzgsLTIxMzA5MTMxODgsLTk2NT
-M0NTM0OF19
+eyJoaXN0b3J5IjpbNTE4MTc1OTU4LC0yMTMwOTEzMTg4LC05Nj
+UzNDUzNDhdfQ==
 -->
