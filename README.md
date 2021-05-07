@@ -43,8 +43,7 @@ Adaptive TTL-Based Caching for Content Delivery
 
 [https://dl.acm.org/doi/pdf/10.1145/3078505.3078560](https://dl.acm.org/doi/pdf/10.1145/3078505.3078560)
 
-  
-
+ 
 Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
 
 (follow after twitter trace paper) (TTL)
@@ -153,7 +152,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkwOTI0NjEsNDQ1NTg3ODIxLDE2OT
-U1MzAxMTcsMTIyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMz
-LC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbNTExMDIzMDg1LDQ0NTU4NzgyMSwxNjk1NT
+MwMTE3LDEyMjM3OTYyNSwtNzcwNTc1NDE0LDcxNDc4NTczMywt
+MjEzMDkxMzE4OCwtOTY1MzQ1MzQ4XX0=
 -->
