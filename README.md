@@ -1,22 +1,14 @@
 # Papers
 
 # Caching Related:
-TODO CHECKLIST:
-
-  
+TODO :
 
 Practical Bounds on Optimal Caching with Variable Object Sizes
 
 [http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf)
 
- 
-
 Efficient stack distance computation for priority replacement policies, 2011
-
-(generalized min tree algorithm ! worth to read if studying stack algorithm)
-
-A general study of nearly static stack policy)
-
+(generalized min tree algorithm)
 [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
 
   
@@ -161,7 +153,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1NTg3ODIxLDE2OTU1MzAxMTcsMTIyMz
-c5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMTMwOTEzMTg4
-LC05NjUzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbLTE3OTkwOTI0NjEsNDQ1NTg3ODIxLDE2OT
+U1MzAxMTcsMTIyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMz
+LC0yMTMwOTEzMTg4LC05NjUzNDUzNDhdfQ==
 -->
