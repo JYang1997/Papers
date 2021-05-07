@@ -88,12 +88,13 @@ An Imitation Learning Approach for Cache Replacement (opt attempt)
 - https://arxiv.org/pdf/2006.16239.pdf
 
 
+### Expire related solution
+
 Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
 (follow after twitter trace paper) (TTL)
 
 - https://www.usenix.org/system/files/nsdi21-yang.pdf
 
-### Expire related solution
 
 ## Cache MRC & Stack:
 
@@ -174,8 +175,8 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTIwMDE3OCwtMjEyNDM1NTc4NCw1MT
-EwMjMwODUsNDQ1NTg3ODIxLDE2OTU1MzAxMTcsMTIyMzc5NjI1
-LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMTMwOTEzMTg4LC05Nj
-UzNDUzNDhdfQ==
+eyJoaXN0b3J5IjpbLTE1NzUyMDc2MTAsLTI3MTIwMDE3OCwtMj
+EyNDM1NTc4NCw1MTEwMjMwODUsNDQ1NTg3ODIxLDE2OTU1MzAx
+MTcsMTIyMzc5NjI1LC03NzA1NzU0MTQsNzE0Nzg1NzMzLC0yMT
+MwOTEzMTg4LC05NjUzNDUzNDhdfQ==
 -->
