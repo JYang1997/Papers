@@ -3,6 +3,9 @@
 # Caching Related:
 TODO :
 
+Some Mathematical Facts About Optimal Cache Replacement
+- https://dl.acm.org/doi/pdf/10.1145/3017992
+
 Learning Forward Reuse Distance (2020 Pengcheng Li)
 - https://arxiv.org/pdf/2007.15859.pdf
 
@@ -182,10 +185,10 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA4MDc3OTMsLTEzMTEyMDU0NDQsMT
-gzMjQxNDU0MSw1NDkwNzA3NDMsLTkzMjU3NTc4NCwtMTg5NDc4
-NjA3MCwtMjcxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NS
-w0NDU1ODc4MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3
-NTQxNCw3MTQ3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0OF
-19
+eyJoaXN0b3J5IjpbLTEzOTAzNjk2OTksLTE5MDA4MDc3OTMsLT
+EzMTEyMDU0NDQsMTgzMjQxNDU0MSw1NDkwNzA3NDMsLTkzMjU3
+NTc4NCwtMTg5NDc4NjA3MCwtMjcxMjAwMTc4LC0yMTI0MzU1Nz
+g0LDUxMTAyMzA4NSw0NDU1ODc4MjEsMTY5NTUzMDExNywxMjIz
+Nzk2MjUsLTc3MDU3NTQxNCw3MTQ3ODU3MzMsLTIxMzA5MTMxOD
+gsLTk2NTM0NTM0OF19
 -->
