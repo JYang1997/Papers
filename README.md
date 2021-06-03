@@ -3,7 +3,7 @@
 # Caching Related:
 TODO :
 
-Learning Forward Reuse Distance (2020 pengcheng Li)
+Learning Forward Reuse Distance (2020 Pengcheng Li)
 - https://arxiv.org/pdf/2007.15859.pdf
 
 Efficient Miss Ratio Curve Computation for Heterogeneous Content Popularity
@@ -182,10 +182,10 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM0MzM3NywtMTMxMTIwNTQ0NCwxOD
-MyNDE0NTQxLDU0OTA3MDc0MywtOTMyNTc1Nzg0LC0xODk0Nzg2
-MDcwLC0yNzEyMDAxNzgsLTIxMjQzNTU3ODQsNTExMDIzMDg1LD
-Q0NTU4NzgyMSwxNjk1NTMwMTE3LDEyMjM3OTYyNSwtNzcwNTc1
-NDE0LDcxNDc4NTczMywtMjEzMDkxMzE4OCwtOTY1MzQ1MzQ4XX
-0=
+eyJoaXN0b3J5IjpbLTE5MDA4MDc3OTMsLTEzMTEyMDU0NDQsMT
+gzMjQxNDU0MSw1NDkwNzA3NDMsLTkzMjU3NTc4NCwtMTg5NDc4
+NjA3MCwtMjcxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NS
+w0NDU1ODc4MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3
+NTQxNCw3MTQ3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0OF
+19
 -->
