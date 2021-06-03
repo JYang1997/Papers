@@ -3,6 +3,14 @@
 # Caching Related:
 TODO :
 
+Learning Forward Reuse Distance
+
+Efficient Miss Ratio Curve Computation for Heterogeneous Content Popularity
+- [https://www.usenix.org/system/files/atc20-carra_0.pdf](https://www.usenix.org/system/files/atc20-carra_0.pdf)
+
+DFShards: Effective Construction of MRCs Online for Non-stack
+- https://dl.acm.org/doi/pdf/10.1145/3457388.3458810
+
 Practical Bounds on Optimal Caching with Variable Object Sizes
 
 - [http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sigmetrics.foo.pdf)
@@ -173,9 +181,10 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTEyMDU0NDQsMTgzMjQxNDU0MSw1ND
-kwNzA3NDMsLTkzMjU3NTc4NCwtMTg5NDc4NjA3MCwtMjcxMjAw
-MTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NSw0NDU1ODc4MjEsMT
-Y5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3NTQxNCw3MTQ3ODU3
-MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0OF19
+eyJoaXN0b3J5IjpbLTE3ODg5MTcyMDUsLTEzMTEyMDU0NDQsMT
+gzMjQxNDU0MSw1NDkwNzA3NDMsLTkzMjU3NTc4NCwtMTg5NDc4
+NjA3MCwtMjcxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NS
+w0NDU1ODc4MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3
+NTQxNCw3MTQ3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0NTM0OF
+19
 -->
