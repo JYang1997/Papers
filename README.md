@@ -97,8 +97,9 @@ An Imitation Learning Approach for Cache Replacement (opt attempt)
 
 TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 - https://arxiv.org/pdf/1512.00727.pdf
-- Contribution:
-	
+- Main Contributions:
+	1. Novel admission scheme, works with arbitrary replacement policies
+	2. 
 
 ### Expire related solution
 Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
@@ -193,11 +194,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA5NTYyMzgsMTEzMTk0MDU2OSw2OD
-MzNjU1MjAsLTk1Nzc2NDgwMSwtMTkwMDgwNzc5MywtMTMxMTIw
-NTQ0NCwxODMyNDE0NTQxLDU0OTA3MDc0MywtOTMyNTc1Nzg0LC
-0xODk0Nzg2MDcwLC0yNzEyMDAxNzgsLTIxMjQzNTU3ODQsNTEx
-MDIzMDg1LDQ0NTU4NzgyMSwxNjk1NTMwMTE3LDEyMjM3OTYyNS
-wtNzcwNTc1NDE0LDcxNDc4NTczMywtMjEzMDkxMzE4OCwtOTY1
-MzQ1MzQ4XX0=
+eyJoaXN0b3J5IjpbOTEzODk0MzYxLDExMzE5NDA1NjksNjgzMz
+Y1NTIwLC05NTc3NjQ4MDEsLTE5MDA4MDc3OTMsLTEzMTEyMDU0
+NDQsMTgzMjQxNDU0MSw1NDkwNzA3NDMsLTkzMjU3NTc4NCwtMT
+g5NDc4NjA3MCwtMjcxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAy
+MzA4NSw0NDU1ODc4MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLT
+c3MDU3NTQxNCw3MTQ3ODU3MzMsLTIxMzA5MTMxODgsLTk2NTM0
+NTM0OF19
 -->
