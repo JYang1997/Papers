@@ -108,7 +108,7 @@ TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 	3. Their novel CBF structure can be used to implement perfect-LFU like eviction scheme.
 	4. TinyLFU Weakness:
 		- The eviction victim is guarded by TinyLFU filter, referenced item can enter the cache only if its popular than the eviction victim. This mechanism can be both good and bad. This is essentially the part which weakened the impact of eviction decision. 
-		- Under TinyLFU scheme frequency became dominant factor
+		- Under TinyLFU scheme frequency became dominant factor, recent works show that size distribution can have huge impact on cache performance (. Thus
 	
 	![TinyLFU OverView](https://github.com/JYang1997/Papers/blob/main/imgs/simpletinylfu.png)
 
@@ -205,11 +205,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2MjExNzYsNjE3NzU5NTA1LC04NTUwMz
-E2MzMsMTg4MzM3NTk1MCwxNzY0NTQwNDM5LDg1NTUyNDkxOCw4
-NTQ3MjM2ODIsLTEzNjI3MzYwMDAsLTQ0NTExNDk0MSwxMTMxOT
-QwNTY5LDY4MzM2NTUyMCwtOTU3NzY0ODAxLC0xOTAwODA3Nzkz
-LC0xMzExMjA1NDQ0LDE4MzI0MTQ1NDEsNTQ5MDcwNzQzLC05Mz
-I1NzU3ODQsLTE4OTQ3ODYwNzAsLTI3MTIwMDE3OCwtMjEyNDM1
-NTc4NF19
+eyJoaXN0b3J5IjpbNDQzNjY4NTI4LDYxNzc1OTUwNSwtODU1MD
+MxNjMzLDE4ODMzNzU5NTAsMTc2NDU0MDQzOSw4NTU1MjQ5MTgs
+ODU0NzIzNjgyLC0xMzYyNzM2MDAwLC00NDUxMTQ5NDEsMTEzMT
+k0MDU2OSw2ODMzNjU1MjAsLTk1Nzc2NDgwMSwtMTkwMDgwNzc5
+MywtMTMxMTIwNTQ0NCwxODMyNDE0NTQxLDU0OTA3MDc0MywtOT
+MyNTc1Nzg0LC0xODk0Nzg2MDcwLC0yNzEyMDAxNzgsLTIxMjQz
+NTU3ODRdfQ==
 -->
