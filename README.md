@@ -103,7 +103,7 @@ TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 	3.  Developed *W-TinyLFU* which is a optimized version of TinyLFU with LRU based eviction scheme. Multiple works show that *W-TinyLFU* tops out compare to many existing caching scheme. *W-TinyLFU* is implemented in **Caffeine**.
 	4.  For skewed workloads and workloads with static distributions, the impact of eviction policy in caches with *TinyLFU* admission policy became marginal. <ins>They state that with even naive eviction scheme the cache perform similar to perfect-LFU. </ins> For dynamic distribution, the eviction policy does impact performance, but less profound compare to without admission policy. 
 - **Notes and Implication**:
-	1. Sec 2.1, backed the idea that perfect-LFU is an "optimal" online policy when access distribution is static. And, the In-cache LFU performs noticeably worse than perfect  LFU due to its inaccurate frequency distribution.
+	1. Sec 2.1, backed the idea that perfect-LFU is an "optimal" online policy when access distribution is static. And, the In-cache LFU performs noticeably worse than perfect  LFU due to its inaccurate frequency distribution. (not actually optimal since there are many other factors n
 	2. Frequency based solution rarely 
 	3. Their novel CBF structure can be used to implement perfect-LFU like eviction scheme.
 	4. TinyLFU Weakness:
@@ -205,11 +205,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTI4OTg1LDYxNzc1OTUwNSwtODU1MD
-MxNjMzLDE4ODMzNzU5NTAsMTc2NDU0MDQzOSw4NTU1MjQ5MTgs
-ODU0NzIzNjgyLC0xMzYyNzM2MDAwLC00NDUxMTQ5NDEsMTEzMT
-k0MDU2OSw2ODMzNjU1MjAsLTk1Nzc2NDgwMSwtMTkwMDgwNzc5
-MywtMTMxMTIwNTQ0NCwxODMyNDE0NTQxLDU0OTA3MDc0MywtOT
-MyNTc1Nzg0LC0xODk0Nzg2MDcwLC0yNzEyMDAxNzgsLTIxMjQz
-NTU3ODRdfQ==
+eyJoaXN0b3J5IjpbMTI1MDc1Njk3MCwtNjQxMjg5ODUsNjE3Nz
+U5NTA1LC04NTUwMzE2MzMsMTg4MzM3NTk1MCwxNzY0NTQwNDM5
+LDg1NTUyNDkxOCw4NTQ3MjM2ODIsLTEzNjI3MzYwMDAsLTQ0NT
+ExNDk0MSwxMTMxOTQwNTY5LDY4MzM2NTUyMCwtOTU3NzY0ODAx
+LC0xOTAwODA3NzkzLC0xMzExMjA1NDQ0LDE4MzI0MTQ1NDEsNT
+Q5MDcwNzQzLC05MzI1NzU3ODQsLTE4OTQ3ODYwNzAsLTI3MTIw
+MDE3OF19
 -->
