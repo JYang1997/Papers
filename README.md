@@ -104,7 +104,7 @@ TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 	4.  For skewed workloads and workloads with static distributions, the impact of eviction policy in caches with *TinyLFU* admission policy became marginal. <ins>They state that with even naive eviction scheme the cache perform similar to perfect-LFU. </ins> For dynamic distribution, the eviction policy does impact performance, but less profound compare to without admission policy. 
 - **Notes and Implication**:
 	1. Sec 2.1, backed the idea that perfect-LFU is an "optimal" online policy when access distribution is static. And, the In-cache LFU performs noticeably worse than perfect  LFU due to its inaccurate frequency distribution. (not actually optimal since there are many other factors not consider in this simplfied context).
-	2. Most frequency based solution, use frequency as dominant factor. And use recency or *aging* to  handle pdynamic access distribution. 
+	2. Most frequency based solution, use frequency as dominant factor. And use recency or *aging* to  handle dynamic access distribution. 
 	3. Their novel CBF structure can be used to implement perfect-LFU like eviction scheme.
 	4. TinyLFU Weakness:
 		- The eviction victim is guarded by TinyLFU filter, referenced item can enter the cache only if its popular than the eviction victim. This mechanism can be both good and bad. This is essentially the part which weakened the impact of eviction decision. 
@@ -205,7 +205,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjYzOTM3MiwtNjQxMjg5ODUsNjE3Nz
+eyJoaXN0b3J5IjpbLTczMjQ1MTM5MiwtNjQxMjg5ODUsNjE3Nz
 U5NTA1LC04NTUwMzE2MzMsMTg4MzM3NTk1MCwxNzY0NTQwNDM5
 LDg1NTUyNDkxOCw4NTQ3MjM2ODIsLTEzNjI3MzYwMDAsLTQ0NT
 ExNDk0MSwxMTMxOTQwNTY5LDY4MzM2NTUyMCwtOTU3NzY0ODAx
