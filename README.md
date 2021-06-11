@@ -106,7 +106,7 @@ TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 	1. Sec 2.1, backed the idea that perfect-LFU is an "optimal" online policy when access distribution is static. And, the In-cache LFU performs noticeably worse than perfect  LFU due to its inaccurate frequency distribution.
 	2. Frequency based solution rarely 
 	3. Their novel CBF structure can be used to implement perfect-LFU like eviction scheme.
-	4. ![enter image description here](https://github.com/JYang1997/Papers/blob/main/imgs/simpletinylfu.png)
+	4. ![TinyLFU OverView](https://github.com/JYang1997/Papers/blob/main/imgs/simpletinylfu.png)
 
 ### Expire related solution
 Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
@@ -201,7 +201,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzc3NjkwOCwxODgzMzc1OTUwLDE3Nj
+eyJoaXN0b3J5IjpbLTg1NTAzMTYzMywxODgzMzc1OTUwLDE3Nj
 Q1NDA0MzksODU1NTI0OTE4LDg1NDcyMzY4MiwtMTM2MjczNjAw
 MCwtNDQ1MTE0OTQxLDExMzE5NDA1NjksNjgzMzY1NTIwLC05NT
 c3NjQ4MDEsLTE5MDA4MDc3OTMsLTEzMTEyMDU0NDQsMTgzMjQx
