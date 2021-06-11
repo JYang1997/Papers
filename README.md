@@ -99,7 +99,7 @@ TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 - https://arxiv.org/pdf/1512.00727.pdf
 - Main Contributions:
 	1. Novel LFU based **admission** scheme, works with arbitrary replacement policies.
-	2.  Proposed a highly space efficient data structure for storing frequency cnt. They claim that such Counting Bloom Filter based structure can accurately mimic the frequency ordering under perfect LFU i.e. 
+	2.  Proposed a highly space efficient data structure for storing frequency cnt. They claim that such Counting Bloom Filter based structure can accurately mimic the frequency ordering under perfect LFU i.e. true access frequency distribution. 
 	3.  
 
 ### Expire related solution
@@ -195,7 +195,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTUzNzU2NywxMTMxOTQwNTY5LDY4Mz
+eyJoaXN0b3J5IjpbLTQ0NTExNDk0MSwxMTMxOTQwNTY5LDY4Mz
 M2NTUyMCwtOTU3NzY0ODAxLC0xOTAwODA3NzkzLC0xMzExMjA1
 NDQ0LDE4MzI0MTQ1NDEsNTQ5MDcwNzQzLC05MzI1NzU3ODQsLT
 E4OTQ3ODYwNzAsLTI3MTIwMDE3OCwtMjEyNDM1NTc4NCw1MTEw
