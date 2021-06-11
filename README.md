@@ -104,7 +104,7 @@ TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 	4.  For skewed workloads and workloads with static distributions, the impact of eviction policy in caches with *TinyLFU* admission policy became marginal. <ins>They state that with even naive eviction scheme the cache perform similar to perfect-LFU. </ins> For dynamic distribution, the eviction policy does impact performance, but less profound compare to without admission policy. 
 - **Notes and Implication**:
 	1. Sec 2.1, backed the idea that perfect-LFU is an "optimal" online policy when access distribution is static. And, the In-cache LFU performs noticeably worse than perfect  LFU due to its inaccurate frequency distribution.
-	2. This paper backed the idea that perfect-LFU
+	2. Frequency based sol
 
 ### Expire related solution
 Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
@@ -199,11 +199,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NTI0OTE4LDg1NDcyMzY4MiwtMTM2Mj
-czNjAwMCwtNDQ1MTE0OTQxLDExMzE5NDA1NjksNjgzMzY1NTIw
-LC05NTc3NjQ4MDEsLTE5MDA4MDc3OTMsLTEzMTEyMDU0NDQsMT
-gzMjQxNDU0MSw1NDkwNzA3NDMsLTkzMjU3NTc4NCwtMTg5NDc4
-NjA3MCwtMjcxMjAwMTc4LC0yMTI0MzU1Nzg0LDUxMTAyMzA4NS
-w0NDU1ODc4MjEsMTY5NTUzMDExNywxMjIzNzk2MjUsLTc3MDU3
-NTQxNF19
+eyJoaXN0b3J5IjpbNTkzNTU1NDg1LDg1NTUyNDkxOCw4NTQ3Mj
+M2ODIsLTEzNjI3MzYwMDAsLTQ0NTExNDk0MSwxMTMxOTQwNTY5
+LDY4MzM2NTUyMCwtOTU3NzY0ODAxLC0xOTAwODA3NzkzLC0xMz
+ExMjA1NDQ0LDE4MzI0MTQ1NDEsNTQ5MDcwNzQzLC05MzI1NzU3
+ODQsLTE4OTQ3ODYwNzAsLTI3MTIwMDE3OCwtMjEyNDM1NTc4NC
+w1MTEwMjMwODUsNDQ1NTg3ODIxLDE2OTU1MzAxMTcsMTIyMzc5
+NjI1XX0=
 -->
