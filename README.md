@@ -3,7 +3,10 @@
 # Caching Related:
 TODO :
 
-Page Replacement for General Caching Problems (Susanne Albers 1999)
+Adaptive Software Cache Management [Gil Einziger, 2018]
+- https://dl.acm.org/doi/pdf/10.1145/3274808.3274816
+
+Page Replacement for General Caching Problems (Susanne Albers, 1999)
 - https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.5555/314500.314528
 
 Some Mathematical Facts About Optimal Cache Replacement [PIERRE MICHAUD, Inria 2016]
@@ -205,11 +208,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NT
-k1MDUsLTg1NTAzMTYzMywxODgzMzc1OTUwLDE3NjQ1NDA0Mzks
-ODU1NTI0OTE4LDg1NDcyMzY4MiwtMTM2MjczNjAwMCwtNDQ1MT
-E0OTQxLDExMzE5NDA1NjksNjgzMzY1NTIwLC05NTc3NjQ4MDEs
-LTE5MDA4MDc3OTMsLTEzMTEyMDU0NDQsMTgzMjQxNDU0MSw1ND
-kwNzA3NDMsLTkzMjU3NTc4NCwtMTg5NDc4NjA3MCwtMjcxMjAw
-MTc4XX0=
+eyJoaXN0b3J5IjpbMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLTY0MT
+I4OTg1LDYxNzc1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5NTAs
+MTc2NDU0MDQzOSw4NTU1MjQ5MTgsODU0NzIzNjgyLC0xMzYyNz
+M2MDAwLC00NDUxMTQ5NDEsMTEzMTk0MDU2OSw2ODMzNjU1MjAs
+LTk1Nzc2NDgwMSwtMTkwMDgwNzc5MywtMTMxMTIwNTQ0NCwxOD
+MyNDE0NTQxLDU0OTA3MDc0MywtOTMyNTc1Nzg0LC0xODk0Nzg2
+MDcwXX0=
 -->
