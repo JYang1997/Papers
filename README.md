@@ -3,6 +3,10 @@
 # Caching Related:
 TODO :
 
+Lightweight Robust Size Aware Cache Management [[Gil Einziger, 2021]
+- https://arxiv.org/pdf/2105.08770.pdf 
+
+
 Adaptive Software Cache Management [Gil Einziger, 2018]
 - https://dl.acm.org/doi/pdf/10.1145/3274808.3274816
 
@@ -208,11 +212,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLTY0MT
-I4OTg1LDYxNzc1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5NTAs
-MTc2NDU0MDQzOSw4NTU1MjQ5MTgsODU0NzIzNjgyLC0xMzYyNz
-M2MDAwLC00NDUxMTQ5NDEsMTEzMTk0MDU2OSw2ODMzNjU1MjAs
-LTk1Nzc2NDgwMSwtMTkwMDgwNzc5MywtMTMxMTIwNTQ0NCwxOD
-MyNDE0NTQxLDU0OTA3MDc0MywtOTMyNTc1Nzg0LC0xODk0Nzg2
-MDcwXX0=
+eyJoaXN0b3J5IjpbLTE4MDI2OTA1OTEsMTQ3NzE1NDQ1Myw3ND
+U3ODU5MzMsLTY0MTI4OTg1LDYxNzc1OTUwNSwtODU1MDMxNjMz
+LDE4ODMzNzU5NTAsMTc2NDU0MDQzOSw4NTU1MjQ5MTgsODU0Nz
+IzNjgyLC0xMzYyNzM2MDAwLC00NDUxMTQ5NDEsMTEzMTk0MDU2
+OSw2ODMzNjU1MjAsLTk1Nzc2NDgwMSwtMTkwMDgwNzc5MywtMT
+MxMTIwNTQ0NCwxODMyNDE0NTQxLDU0OTA3MDc0MywtOTMyNTc1
+Nzg0XX0=
 -->
