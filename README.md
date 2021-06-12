@@ -3,9 +3,9 @@
 # Caching Related:
 TODO :
 
-Lightweight Robust Size Aware Cache Management [[Gil Einziger, 2021]
+**Lightweight Robust Size Aware Cache Management**[[Gil Einziger, 2021]
 - https://arxiv.org/pdf/2105.08770.pdf 
-
+- size aware extension to tinyLFU
 
 Adaptive Software Cache Management [Gil Einziger, 2018]
 - https://dl.acm.org/doi/pdf/10.1145/3274808.3274816
@@ -212,11 +212,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI2OTA1OTEsMTQ3NzE1NDQ1Myw3ND
-U3ODU5MzMsLTY0MTI4OTg1LDYxNzc1OTUwNSwtODU1MDMxNjMz
-LDE4ODMzNzU5NTAsMTc2NDU0MDQzOSw4NTU1MjQ5MTgsODU0Nz
-IzNjgyLC0xMzYyNzM2MDAwLC00NDUxMTQ5NDEsMTEzMTk0MDU2
-OSw2ODMzNjU1MjAsLTk1Nzc2NDgwMSwtMTkwMDgwNzc5MywtMT
-MxMTIwNTQ0NCwxODMyNDE0NTQxLDU0OTA3MDc0MywtOTMyNTc1
-Nzg0XX0=
+eyJoaXN0b3J5IjpbLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0Nz
+cxNTQ0NTMsNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NTk1MDUs
+LTg1NTAzMTYzMywxODgzMzc1OTUwLDE3NjQ1NDA0MzksODU1NT
+I0OTE4LDg1NDcyMzY4MiwtMTM2MjczNjAwMCwtNDQ1MTE0OTQx
+LDExMzE5NDA1NjksNjgzMzY1NTIwLC05NTc3NjQ4MDEsLTE5MD
+A4MDc3OTMsLTEzMTEyMDU0NDQsMTgzMjQxNDU0MSw1NDkwNzA3
+NDNdfQ==
 -->
