@@ -160,7 +160,8 @@ DFShards: Effective Construction of MRCs Online for Non-stack
 - https://dl.acm.org/doi/pdf/10.1145/3457388.3458810
 - **Addressed Issues**
 	1.	 There is no current work on constructing MRC for non-stack policy. One way to construct MRC is to simulate fixed number of cache size. 
-	2.	 The problem is simulating to many cache size is waste of resource. simulating not enough
+	2.	 The problem is simulating to many cache size is waste of resource. simulating not enough cache size result in inaccurate MRC.
+	3.	
 
 ## Caching Theory
 
@@ -214,11 +215,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE2NDUzNzcsMTEzNzU4MzEwNiwtMj
-E4NjA3NTE1LC04ODA5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0
-NDUzLDc0NTc4NTkzMywtNjQxMjg5ODUsNjE3NzU5NTA1LC04NT
-UwMzE2MzMsMTg4MzM3NTk1MCwxNzY0NTQwNDM5LDg1NTUyNDkx
-OCw4NTQ3MjM2ODIsLTEzNjI3MzYwMDAsLTQ0NTExNDk0MSwxMT
-MxOTQwNTY5LDY4MzM2NTUyMCwtOTU3NzY0ODAxLC0xOTAwODA3
-NzkzXX0=
+eyJoaXN0b3J5IjpbLTk4MjYxNDU4NCwxMTM3NTgzMTA2LC0yMT
+g2MDc1MTUsLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0NzcxNTQ0
+NTMsNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NTk1MDUsLTg1NT
+AzMTYzMywxODgzMzc1OTUwLDE3NjQ1NDA0MzksODU1NTI0OTE4
+LDg1NDcyMzY4MiwtMTM2MjczNjAwMCwtNDQ1MTE0OTQxLDExMz
+E5NDA1NjksNjgzMzY1NTIwLC05NTc3NjQ4MDEsLTE5MDA4MDc3
+OTNdfQ==
 -->
