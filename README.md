@@ -22,8 +22,6 @@ Learning Forward Reuse Distance (2020 Pengcheng Li)
 Efficient Miss Ratio Curve Computation for Heterogeneous Content Popularity
 - [https://www.usenix.org/system/files/atc20-carra_0.pdf](https://www.usenix.org/system/files/atc20-carra_0.pdf)
 
-DFShards: Effective Construction of MRCs Online for Non-stack
-- https://dl.acm.org/doi/pdf/10.1145/3457388.3458810
 
 Practical Bounds on Optimal Caching with Variable Object Sizes
 
@@ -158,6 +156,8 @@ CounterStack 2014
 
 - SRC: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
 
+DFShards: Effective Construction of MRCs Online for Non-stack
+- https://dl.acm.org/doi/pdf/10.1145/3457388.3458810
 
 
 ## Caching Theory
@@ -212,11 +212,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0Nz
-cxNTQ0NTMsNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NTk1MDUs
-LTg1NTAzMTYzMywxODgzMzc1OTUwLDE3NjQ1NDA0MzksODU1NT
-I0OTE4LDg1NDcyMzY4MiwtMTM2MjczNjAwMCwtNDQ1MTE0OTQx
-LDExMzE5NDA1NjksNjgzMzY1NTIwLC05NTc3NjQ4MDEsLTE5MD
-A4MDc3OTMsLTEzMTEyMDU0NDQsMTgzMjQxNDU0MSw1NDkwNzA3
-NDNdfQ==
+eyJoaXN0b3J5IjpbLTE0OTIzODg1NCwtODgwOTcxNzYsLTE4MD
+I2OTA1OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLTY0MTI4OTg1
+LDYxNzc1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5NTAsMTc2ND
+U0MDQzOSw4NTU1MjQ5MTgsODU0NzIzNjgyLC0xMzYyNzM2MDAw
+LC00NDUxMTQ5NDEsMTEzMTk0MDU2OSw2ODMzNjU1MjAsLTk1Nz
+c2NDgwMSwtMTkwMDgwNzc5MywtMTMxMTIwNTQ0NCwxODMyNDE0
+NTQxXX0=
 -->
