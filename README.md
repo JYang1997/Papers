@@ -166,7 +166,7 @@ DFShards: Effective Construction of MRCs Online for Non-stack
 	2. Utilize spatial sampling  to reduce simulation cost.  
 - ** Notes**
 	1. Interpolation is probably the most practical way of MRC construction for modern cache.
-	2. 
+	2. This work does not address online working set size prediction, that is, the largest cache size that need to predicts. We can probably use a specially hashed
 
 ## Caching Theory
 
@@ -220,7 +220,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjMzNjQ5MSwxNTg4NTQ4MTUxLC05OD
+eyJoaXN0b3J5IjpbLTI3Njk5ODQ1MSwxNTg4NTQ4MTUxLC05OD
 I2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1LC04ODA5NzE3
 NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NTc4NTkzMywtNj
 QxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzMsMTg4MzM3NTk1
