@@ -162,7 +162,7 @@ DFShards: Effective Construction of MRCs Online for Non-stack
 	1.	 There is no current work on constructing MRC for non-stack policy. One way to construct MRC is to simulate fixed number of cache size. 
 	2.	 The problem is simulating to many cache size is waste of resources. simulating not enough cache size result in inaccurate MRC.
 - ** Contributions**
-	1. This work dynamically adjust numbers and size of cache to simulates. This work checks adjacent cache size, if  the difference is 
+	1. This work dynamically adjust numbers and size of cache to simulates. This work checks adjacent cache size, if  the difference is not in the threshold (too small or too large), then the model 
 	2. Utilize spatial sampling  to reduce simulation cost.  
 
 ## Caching Theory
@@ -217,7 +217,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjQ0Mjk5NSwxNTg4NTQ4MTUxLC05OD
+eyJoaXN0b3J5IjpbMTM4NTAwNzYyMiwxNTg4NTQ4MTUxLC05OD
 I2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1LC04ODA5NzE3
 NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NTc4NTkzMywtNj
 QxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzMsMTg4MzM3NTk1
