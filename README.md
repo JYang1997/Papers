@@ -165,7 +165,7 @@ DFShards: Effective Construction of MRCs Online for Non-stack
 	1. This work dynamically adjust numbers and size of cache to simulates. This work checks adjacent cache size, if  the difference is not in the threshold (too small or too large), then the model perfomances adjustment online.
 	2. Utilize spatial sampling  to reduce simulation cost.  
 - **Notes**
-	1. Interpolation is probably the most practical way of MRC construction for modern cache.
+	1. Interpolation is probably the most practical way of MRC construction for modern cache (especially complex cache).
 	2. This work does not address online working set size prediction, that is, the largest cache size that need to predicts. *We can probably feed spatially sampled trace to a bloom filter for working set estimation.*
 	3. The seed has significant impact on spatial sampling, especially when sampling rate is low. We can use different seeds for different miniature caches. Then use the collective result to offset the error from sampling and even adjust seeds for better sampling. This might allow us to use even smaller sampling rates.
 
@@ -221,11 +221,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExMDk5NDcwLDU2Nzg1NTMyMywxNTg4NT
-Q4MTUxLC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1
-LC04ODA5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NT
-c4NTkzMywtNjQxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzMs
-MTg4MzM3NTk1MCwxNzY0NTQwNDM5LDg1NTUyNDkxOCw4NTQ3Mj
-M2ODIsLTEzNjI3MzYwMDAsLTQ0NTExNDk0MSwxMTMxOTQwNTY5
-XX0=
+eyJoaXN0b3J5IjpbLTg2MjY4OTQxOCw1Njc4NTUzMjMsMTU4OD
+U0ODE1MSwtOTgyNjE0NTg0LDExMzc1ODMxMDYsLTIxODYwNzUx
+NSwtODgwOTcxNzYsLTE4MDI2OTA1OTEsMTQ3NzE1NDQ1Myw3ND
+U3ODU5MzMsLTY0MTI4OTg1LDYxNzc1OTUwNSwtODU1MDMxNjMz
+LDE4ODMzNzU5NTAsMTc2NDU0MDQzOSw4NTU1MjQ5MTgsODU0Nz
+IzNjgyLC0xMzYyNzM2MDAwLC00NDUxMTQ5NDEsMTEzMTk0MDU2
+OV19
 -->
