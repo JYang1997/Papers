@@ -161,12 +161,13 @@ DFShards: Effective Construction of MRCs Online for Non-stack
 - **Addressed Issues**
 	1.	 There is no current work on constructing MRC for non-stack policy. One way to construct MRC is to simulate fixed number of cache size. 
 	2.	 The problem is simulating to many cache size is waste of resources. simulating not enough cache size result in inaccurate MRC.
-- ** Contributions**
+- **Contributions**
 	1. This work dynamically adjust numbers and size of cache to simulates. This work checks adjacent cache size, if  the difference is not in the threshold (too small or too large), then the model perfomances adjustment online.
 	2. Utilize spatial sampling  to reduce simulation cost.  
-- ** Notes**
+- **Notes**
 	1. Interpolation is probably the most practical way of MRC construction for modern cache.
-	2. This work does not address online working set size prediction, that is, the largest cache size that need to predicts. We can probably feed spatially sampled trac
+	2. This work does not address online working set size prediction, that is, the largest cache size that need to predicts. *We can probably feed spatially sampled trace to a bloom filter for working set estimation.*
+	3. The 
 
 ## Caching Theory
 
@@ -220,11 +221,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODcyMTc2MSwxNTg4NTQ4MTUxLC05OD
-I2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1LC04ODA5NzE3
-NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NTc4NTkzMywtNj
-QxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzMsMTg4MzM3NTk1
-MCwxNzY0NTQwNDM5LDg1NTUyNDkxOCw4NTQ3MjM2ODIsLTEzNj
-I3MzYwMDAsLTQ0NTExNDk0MSwxMTMxOTQwNTY5LDY4MzM2NTUy
-MF19
+eyJoaXN0b3J5IjpbLTE5ODc0MjkyNTAsMTU4ODU0ODE1MSwtOT
+gyNjE0NTg0LDExMzc1ODMxMDYsLTIxODYwNzUxNSwtODgwOTcx
+NzYsLTE4MDI2OTA1OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLT
+Y0MTI4OTg1LDYxNzc1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5
+NTAsMTc2NDU0MDQzOSw4NTU1MjQ5MTgsODU0NzIzNjgyLC0xMz
+YyNzM2MDAwLC00NDUxMTQ5NDEsMTEzMTk0MDU2OSw2ODMzNjU1
+MjBdfQ==
 -->
