@@ -167,7 +167,7 @@ DFShards: Effective Construction of MRCs Online for Non-stack
 - **Notes**
 	1. Interpolation is probably the most practical way of MRC construction for modern cache.
 	2. This work does not address online working set size prediction, that is, the largest cache size that need to predicts. *We can probably feed spatially sampled trace to a bloom filter for working set estimation.*
-	3. The seed has significant impact on spatial sampling, especially when sampling rate is low. We can use different seeds for different miniature caches.,then use the collective result to offset the error from sampling. Then even adjust seeds for better sampling, this might allow us to use even smaller sampling rates.
+	3. The seed has significant impact on spatial sampling, especially when sampling rate is low. We can use different seeds for different miniature caches. Then use the collective result to offset the error from sampling and even adjust seeds for better sampling. This might allow us to use even smaller sampling rates.
 
 ## Caching Theory
 
@@ -221,7 +221,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 [https://arxiv.org/pdf/1901.01825.pdf](https://arxiv.org/pdf/1901.01825.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTQzMDA5LDE1ODg1NDgxNTEsLTk4Mj
+eyJoaXN0b3J5IjpbNTY3ODU1MzIzLDE1ODg1NDgxNTEsLTk4Mj
 YxNDU4NCwxMTM3NTgzMTA2LC0yMTg2MDc1MTUsLTg4MDk3MTc2
 LC0xODAyNjkwNTkxLDE0NzcxNTQ0NTMsNzQ1Nzg1OTMzLC02ND
 EyODk4NSw2MTc3NTk1MDUsLTg1NTAzMTYzMywxODgzMzc1OTUw
