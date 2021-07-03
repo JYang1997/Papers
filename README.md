@@ -3,6 +3,9 @@
 # Caching Related:
 TODO :
 
+A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
+- https://arxiv.org/pdf/2010.04406.pdf
+
 **Lightweight Robust Size Aware Cache Management**[[Gil Einziger, 2021]
 - https://arxiv.org/pdf/2105.08770.pdf 
 - size aware extension to tinyLFU
@@ -225,11 +228,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNjkxMzMxLDIwMTk3MTE2NDcsNTY3OD
-U1MzIzLDE1ODg1NDgxNTEsLTk4MjYxNDU4NCwxMTM3NTgzMTA2
-LC0yMTg2MDc1MTUsLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0Nz
-cxNTQ0NTMsNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NTk1MDUs
-LTg1NTAzMTYzMywxODgzMzc1OTUwLDE3NjQ1NDA0MzksODU1NT
-I0OTE4LDg1NDcyMzY4MiwtMTM2MjczNjAwMCwtNDQ1MTE0OTQx
+eyJoaXN0b3J5IjpbMjA0OTMzODQ5MSw1NjI2OTEzMzEsMjAxOT
+cxMTY0Nyw1Njc4NTUzMjMsMTU4ODU0ODE1MSwtOTgyNjE0NTg0
+LDExMzc1ODMxMDYsLTIxODYwNzUxNSwtODgwOTcxNzYsLTE4MD
+I2OTA1OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLTY0MTI4OTg1
+LDYxNzc1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5NTAsMTc2ND
+U0MDQzOSw4NTU1MjQ5MTgsODU0NzIzNjgyLC0xMzYyNzM2MDAw
 XX0=
 -->
