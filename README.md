@@ -98,7 +98,9 @@ LHD
 
 - github(src): [https://github.com/CMU-CORGI/LHD](https://github.com/CMU-CORGI/LHD)
 
-  
+ Hyperbolic Caching: Flexible Caching for Web Applications [Aaron Blankstein 2017]
+ - https://www.usenix.org/system/files/conference/atc17/atc17-blankstein.pdf
+ 
 An Imitation Learning Approach for Cache Replacement (opt attempt)
 - https://arxiv.org/pdf/2006.16239.pdf
 
@@ -228,11 +230,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTMzODQ5MSw1NjI2OTEzMzEsMjAxOT
-cxMTY0Nyw1Njc4NTUzMjMsMTU4ODU0ODE1MSwtOTgyNjE0NTg0
-LDExMzc1ODMxMDYsLTIxODYwNzUxNSwtODgwOTcxNzYsLTE4MD
-I2OTA1OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLTY0MTI4OTg1
-LDYxNzc1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5NTAsMTc2ND
-U0MDQzOSw4NTU1MjQ5MTgsODU0NzIzNjgyLC0xMzYyNzM2MDAw
-XX0=
+eyJoaXN0b3J5IjpbLTc3ODM2NzgwNywyMDQ5MzM4NDkxLDU2Mj
+Y5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NTQ4MTUx
+LC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1LC04OD
+A5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NTc4NTkz
+MywtNjQxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzMsMTg4Mz
+M3NTk1MCwxNzY0NTQwNDM5LDg1NTUyNDkxOCw4NTQ3MjM2ODJd
+fQ==
 -->
