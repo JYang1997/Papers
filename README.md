@@ -2,6 +2,8 @@
 
 # Caching Related:
 TODO :
+Workload Analysis of a Large-Scale Key-Value Store [2012 Song Jiang]
+- https://ranger.uta.edu/~sjiang/pubs/papers/atikoglu12-memcached.pdf
 
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
@@ -230,11 +232,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODM2NzgwNywyMDQ5MzM4NDkxLDU2Mj
-Y5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NTQ4MTUx
-LC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1LC04OD
-A5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NTc4NTkz
-MywtNjQxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzMsMTg4Mz
-M3NTk1MCwxNzY0NTQwNDM5LDg1NTUyNDkxOCw4NTQ3MjM2ODJd
-fQ==
+eyJoaXN0b3J5IjpbMTA0MDA4NDQyOCwtNzc4MzY3ODA3LDIwND
+kzMzg0OTEsNTYyNjkxMzMxLDIwMTk3MTE2NDcsNTY3ODU1MzIz
+LDE1ODg1NDgxNTEsLTk4MjYxNDU4NCwxMTM3NTgzMTA2LC0yMT
+g2MDc1MTUsLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0NzcxNTQ0
+NTMsNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NTk1MDUsLTg1NT
+AzMTYzMywxODgzMzc1OTUwLDE3NjQ1NDA0MzksODU1NTI0OTE4
+XX0=
 -->
