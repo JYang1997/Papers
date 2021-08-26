@@ -156,7 +156,12 @@ statCache 2003
 Statstack 2010
 - [https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.220.6752&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.220.6752&rep=rep1&type=pdf)
 
- 
+Efficient Stack Distance Computation for a Class of Priority Replacement Policies 2012 
+(generalized min tree algorithm)
+- [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
+- https://link-springer-com.services.lib.mtu.edu/content/pdf/10.1007/s10766-012-0200-2.pdf
+
+
 CounterStack 2014
 
 - [https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
@@ -192,10 +197,6 @@ Optimal Data Placement for Heterogeneous Cache, Memory, and Storage Systems
 
 -[https://www.ymsir.com/papers/chopt-sigmetrics.pdf](https://www.ymsir.com/papers/chopt-sigmetrics.pdf)
 
-Efficient stack distance computation for priority replacement policies, 2011
-(generalized min tree algorithm)
-- [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
-- https://link-springer-com.services.lib.mtu.edu/content/pdf/10.1007/s10766-012-0200-2.pdf
 
 
 Optimal On-Line Computation of Stack Distances for MIN and OPT∗
@@ -232,11 +233,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDA4NDQyOCwtNzc4MzY3ODA3LDIwND
-kzMzg0OTEsNTYyNjkxMzMxLDIwMTk3MTE2NDcsNTY3ODU1MzIz
-LDE1ODg1NDgxNTEsLTk4MjYxNDU4NCwxMTM3NTgzMTA2LC0yMT
-g2MDc1MTUsLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0NzcxNTQ0
-NTMsNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NTk1MDUsLTg1NT
-AzMTYzMywxODgzMzc1OTUwLDE3NjQ1NDA0MzksODU1NTI0OTE4
+eyJoaXN0b3J5IjpbMzQ5MTk5OTU1LDEwNDAwODQ0MjgsLTc3OD
+M2NzgwNywyMDQ5MzM4NDkxLDU2MjY5MTMzMSwyMDE5NzExNjQ3
+LDU2Nzg1NTMyMywxNTg4NTQ4MTUxLC05ODI2MTQ1ODQsMTEzNz
+U4MzEwNiwtMjE4NjA3NTE1LC04ODA5NzE3NiwtMTgwMjY5MDU5
+MSwxNDc3MTU0NDUzLDc0NTc4NTkzMywtNjQxMjg5ODUsNjE3Nz
+U5NTA1LC04NTUwMzE2MzMsMTg4MzM3NTk1MCwxNzY0NTQwNDM5
 XX0=
 -->
