@@ -162,6 +162,8 @@ Efficient Stack Distance Computation for a Class of Priority Replacement Policie
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
 - https://link-springer-com.services.lib.mtu.edu/content/pdf/10.1007/s10766-012-0200-2.pdf
 
+* **Summary**
+	* 
 
 CounterStack 2014
 
@@ -234,11 +236,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDMzNDY2OCwxMDQwMDg0NDI4LC03Nz
-gzNjc4MDcsMjA0OTMzODQ5MSw1NjI2OTEzMzEsMjAxOTcxMTY0
-Nyw1Njc4NTUzMjMsMTU4ODU0ODE1MSwtOTgyNjE0NTg0LDExMz
-c1ODMxMDYsLTIxODYwNzUxNSwtODgwOTcxNzYsLTE4MDI2OTA1
-OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLTY0MTI4OTg1LDYxNz
-c1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5NTAsMTc2NDU0MDQz
-OV19
+eyJoaXN0b3J5IjpbNzY2NjQ3MjYsMjEwNDMzNDY2OCwxMDQwMD
+g0NDI4LC03NzgzNjc4MDcsMjA0OTMzODQ5MSw1NjI2OTEzMzEs
+MjAxOTcxMTY0Nyw1Njc4NTUzMjMsMTU4ODU0ODE1MSwtOTgyNj
+E0NTg0LDExMzc1ODMxMDYsLTIxODYwNzUxNSwtODgwOTcxNzYs
+LTE4MDI2OTA1OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLTY0MT
+I4OTg1LDYxNzc1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5NTBd
+fQ==
 -->
