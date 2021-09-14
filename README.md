@@ -2,8 +2,7 @@
 
 # Caching Related:
 TODO :
-Workload Analysis of a Large-Scale Key-Value Store [2012 Song Jiang]
-- https://ranger.uta.edu/~sjiang/pubs/papers/atikoglu12-memcached.pdf
+
 
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
@@ -208,6 +207,9 @@ Optimal On-Line Computation of Stack Distances for MIN and OPT∗
 
 ##  Caching analysis
 
+(facebook etc) Workload Analysis of a Large-Scale Key-Value Store [2012 Song Jiang]
+- https://ranger.uta.edu/~sjiang/pubs/papers/atikoglu12-memcached.pdf
+
 ## Relevant Data structure:
 
 Cuckoo Filter: Practically Better Than Bloom
@@ -235,7 +237,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM0MDU5MTMsMTIzNjQ3NjQyNiwtNj
+eyJoaXN0b3J5IjpbLTEzNTU5ODcxNTQsMTIzNjQ3NjQyNiwtNj
 I3ODI4MTQ0LDUyODMwNTM5LDIxMDQzMzQ2NjgsMTA0MDA4NDQy
 OCwtNzc4MzY3ODA3LDIwNDkzMzg0OTEsNTYyNjkxMzMxLDIwMT
 k3MTE2NDcsNTY3ODU1MzIzLDE1ODg1NDgxNTEsLTk4MjYxNDU4
