@@ -182,6 +182,8 @@ DFShards: Effective Construction of MRCs Online for Non-stack
 	2. This work does not address online working set size prediction, that is, the largest cache size that need to predicts. *We can probably feed spatially sampled trace to a bloom filter for working set estimation.*
 	3. The seed has significant impact on spatial sampling, especially when sampling rate is low. We can use different seeds for different miniature caches. Then use the collective result to offset the error from sampling and even adjust seeds for better sampling. This might allow us to use even smaller sampling rates.
 
+Modeling Cache Performance Beyond LRU [Beckmann hpca'16]
+* 
 ## Caching Theory
 
 Caching Is Hard—Even in the Fault Model
@@ -237,11 +239,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU5ODcxNTQsMTIzNjQ3NjQyNiwtNj
-I3ODI4MTQ0LDUyODMwNTM5LDIxMDQzMzQ2NjgsMTA0MDA4NDQy
-OCwtNzc4MzY3ODA3LDIwNDkzMzg0OTEsNTYyNjkxMzMxLDIwMT
-k3MTE2NDcsNTY3ODU1MzIzLDE1ODg1NDgxNTEsLTk4MjYxNDU4
-NCwxMTM3NTgzMTA2LC0yMTg2MDc1MTUsLTg4MDk3MTc2LC0xOD
-AyNjkwNTkxLDE0NzcxNTQ0NTMsNzQ1Nzg1OTMzLC02NDEyODk4
-NV19
+eyJoaXN0b3J5IjpbMjA0NzU3NDAwMiwtMTM1NTk4NzE1NCwxMj
+M2NDc2NDI2LC02Mjc4MjgxNDQsNTI4MzA1MzksMjEwNDMzNDY2
+OCwxMDQwMDg0NDI4LC03NzgzNjc4MDcsMjA0OTMzODQ5MSw1Nj
+I2OTEzMzEsMjAxOTcxMTY0Nyw1Njc4NTUzMjMsMTU4ODU0ODE1
+MSwtOTgyNjE0NTg0LDExMzc1ODMxMDYsLTIxODYwNzUxNSwtOD
+gwOTcxNzYsLTE4MDI2OTA1OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5
+MzNdfQ==
 -->
