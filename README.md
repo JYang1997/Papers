@@ -42,20 +42,11 @@ Caching Is Hard—Even in the Fault Model
 General Caching Is Hard: Even with Small Pages - Lukáš Folwarczný, 2015
 - https://arxiv.org/pdf/1506.07905.pdf
 
-Efficient stack distance computation for priority replacement policies, 2011
-(generalized min tree algorithm)
-
-- [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/2016604.2016607)
 
  
 Optimal On-Line Computation of Stack Distances for MIN and OPT∗
 - [https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571](https://dl-acm-org.services.lib.mtu.edu/doi/pdf/10.1145/3075564.3075571)
 
-
-
-counterStack 2014
-
-- [https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
 
 Adaptive TTL-Based Caching for Content Delivery
 
@@ -244,11 +235,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjQ3NjQyNiwtNjI3ODI4MTQ0LDUyOD
-MwNTM5LDIxMDQzMzQ2NjgsMTA0MDA4NDQyOCwtNzc4MzY3ODA3
-LDIwNDkzMzg0OTEsNTYyNjkxMzMxLDIwMTk3MTE2NDcsNTY3OD
-U1MzIzLDE1ODg1NDgxNTEsLTk4MjYxNDU4NCwxMTM3NTgzMTA2
-LC0yMTg2MDc1MTUsLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0Nz
-cxNTQ0NTMsNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NTk1MDVd
-fQ==
+eyJoaXN0b3J5IjpbLTExODM0MDU5MTMsMTIzNjQ3NjQyNiwtNj
+I3ODI4MTQ0LDUyODMwNTM5LDIxMDQzMzQ2NjgsMTA0MDA4NDQy
+OCwtNzc4MzY3ODA3LDIwNDkzMzg0OTEsNTYyNjkxMzMxLDIwMT
+k3MTE2NDcsNTY3ODU1MzIzLDE1ODg1NDgxNTEsLTk4MjYxNDU4
+NCwxMTM3NTgzMTA2LC0yMTg2MDc1MTUsLTg4MDk3MTc2LC0xOD
+AyNjkwNTkxLDE0NzcxNTQ0NTMsNzQ1Nzg1OTMzLC02NDEyODk4
+NV19
 -->
