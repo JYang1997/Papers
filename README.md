@@ -165,7 +165,8 @@ Efficient Stack Distance Computation for a Class of Priority Replacement Policie
 * **Summary**
 	*  This work defined a set of algorithm called *Nearly Static Priority Policies" 
 
-Dynamic Performance Profiling of Cloud Caches [SoCC'13]
+(MIMIR) Dynamic Performance Profiling of Cloud Caches [Bjornsson SoCC'13]
+* **Summary**
 
 CounterStack 2014 [Wires OSDI'14]
 
@@ -241,11 +242,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTQ2MTE0LDUyODMwNTM5LDIxMDQzMz
-Q2NjgsMTA0MDA4NDQyOCwtNzc4MzY3ODA3LDIwNDkzMzg0OTEs
-NTYyNjkxMzMxLDIwMTk3MTE2NDcsNTY3ODU1MzIzLDE1ODg1ND
-gxNTEsLTk4MjYxNDU4NCwxMTM3NTgzMTA2LC0yMTg2MDc1MTUs
-LTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0NzcxNTQ0NTMsNzQ1Nz
-g1OTMzLC02NDEyODk4NSw2MTc3NTk1MDUsLTg1NTAzMTYzM119
-
+eyJoaXN0b3J5IjpbMTcwNzI5OTYyNSw1MjgzMDUzOSwyMTA0Mz
+M0NjY4LDEwNDAwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4NDkx
+LDU2MjY5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NT
+Q4MTUxLC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1
+LC04ODA5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NT
+c4NTkzMywtNjQxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzNd
+fQ==
 -->
