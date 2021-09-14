@@ -171,6 +171,9 @@ CounterStack 2014
 
 - SRC: [https://github.com/jstol/counterstacks](https://github.com/jstol/counterstacks)
 
+* **Summary**
+	* Counter Stacks replaces the original LRU stack with a set of cardinality counters. Each cardinality counter stores the total number of unique references observed since the counter initialized. The basic idea for Counter Stacks is that the LRU stack distance is just counting the number of unique references between re-references. Thus, the LRU stack processing can be considered as a stack of cardinality counters, one for each request. To make it practical for online use, Counter Stacks employs multiple compression techniques includes downsampling and pruning its data matrix as well as replaces the bloom filter-based counter with a low overhead probabilistic cardinality counter. The compressed Counter Stacks only requires $O(NLogM)$ time and $O(LogM)$ space to generate accurate MRCs with bounded error.
+
 DFShards: Effective Construction of MRCs Online for Non-stack
 - https://dl.acm.org/doi/pdf/10.1145/3457388.3458810
 - **Addressed Issues**
@@ -236,11 +239,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MzA1MzksMjEwNDMzNDY2OCwxMDQwMD
-g0NDI4LC03NzgzNjc4MDcsMjA0OTMzODQ5MSw1NjI2OTEzMzEs
-MjAxOTcxMTY0Nyw1Njc4NTUzMjMsMTU4ODU0ODE1MSwtOTgyNj
-E0NTg0LDExMzc1ODMxMDYsLTIxODYwNzUxNSwtODgwOTcxNzYs
-LTE4MDI2OTA1OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5MzMsLTY0MT
-I4OTg1LDYxNzc1OTUwNSwtODU1MDMxNjMzLDE4ODMzNzU5NTBd
+eyJoaXN0b3J5IjpbMTQwNzIxMjAwOCw1MjgzMDUzOSwyMTA0Mz
+M0NjY4LDEwNDAwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4NDkx
+LDU2MjY5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NT
+Q4MTUxLC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1
+LC04ODA5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NT
+c4NTkzMywtNjQxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzNd
 fQ==
 -->
