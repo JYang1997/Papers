@@ -96,6 +96,9 @@ LHD
 An Imitation Learning Approach for Cache Replacement (opt attempt)
 - https://arxiv.org/pdf/2006.16239.pdf
 
+PHOEBE: Reuse-Aware Online Caching with Reinforcement Learning for Emerging Storage Models [Pengcheng Li 2020]
+* https://arxiv.org/pdf/2011.07160.pdf
+
 
 TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 - https://arxiv.org/pdf/1512.00727.pdf
@@ -186,6 +189,9 @@ Modeling Cache Performance Beyond LRU [Beckmann hpca'16]
 * https://people.csail.mit.edu/sanchez/papers/2016.model.hpca.pdf
 *  **Summary**
 	* The accesses to LLC are typically filtered by upper-level private caches, so the input stream of LLC is typically stripped from temporal correlation. Motivated by such property of LLC, Beckmann et al. developed a generic cache model that predicts the performance of age-based replacement policies on modern LLCs. The model established a relationship between reuse time distribution, hit and evict distribution, then it takes reuse time distribution of the workload as the input solves hit and evict distribution through a fixed point iteration.  Although the original work does not provide rigorous convergence criteria, their empirical results show the model makes a very accurate prediction when the model assumption holds.
+
+PHOEBE: Reuse-Aware Online Caching with Reinforcement Learning for Emerging Storage Models [Pengcheng Li 2020]
+* https://arxiv.org/pdf/2011.07160.pdf
 ## Caching Theory
 
 Caching Is Hard—Even in the Fault Model
@@ -241,11 +247,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4OTE3NjIzLC0xMzU1OTg3MTU0LDEyMz
-Y0NzY0MjYsLTYyNzgyODE0NCw1MjgzMDUzOSwyMTA0MzM0NjY4
-LDEwNDAwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4NDkxLDU2Mj
-Y5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NTQ4MTUx
-LC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1LC04OD
-A5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NTc4NTkz
-M119
+eyJoaXN0b3J5IjpbLTIzNDYzNTg2OSwzNjg5MTc2MjMsLTEzNT
+U5ODcxNTQsMTIzNjQ3NjQyNiwtNjI3ODI4MTQ0LDUyODMwNTM5
+LDIxMDQzMzQ2NjgsMTA0MDA4NDQyOCwtNzc4MzY3ODA3LDIwND
+kzMzg0OTEsNTYyNjkxMzMxLDIwMTk3MTE2NDcsNTY3ODU1MzIz
+LDE1ODg1NDgxNTEsLTk4MjYxNDU4NCwxMTM3NTgzMTA2LC0yMT
+g2MDc1MTUsLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0NzcxNTQ0
+NTNdfQ==
 -->
