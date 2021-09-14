@@ -165,7 +165,7 @@ Efficient Stack Distance Computation for a Class of Priority Replacement Policie
 * **Summary**
 	*  This work defined a set of algorithm called *Nearly Static Priority Policies" 
 
-CounterStack 2014
+CounterStack 2014 [Wires OSDI'14]
 
 - [https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf](https://www.cs.ubc.ca/~nickhar/papers/CounterStacks/CounterStacks.pdf)
 
@@ -239,7 +239,7 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzIxMjAwOCw1MjgzMDUzOSwyMTA0Mz
+eyJoaXN0b3J5IjpbLTMwNjQ0OTE5OSw1MjgzMDUzOSwyMTA0Mz
 M0NjY4LDEwNDAwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4NDkx
 LDU2MjY5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NT
 Q4MTUxLC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1
