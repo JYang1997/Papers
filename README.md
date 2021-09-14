@@ -183,7 +183,9 @@ DFShards: Effective Construction of MRCs Online for Non-stack
 	3. The seed has significant impact on spatial sampling, especially when sampling rate is low. We can use different seeds for different miniature caches. Then use the collective result to offset the error from sampling and even adjust seeds for better sampling. This might allow us to use even smaller sampling rates.
 
 Modeling Cache Performance Beyond LRU [Beckmann hpca'16]
-* 
+* https://people.csail.mit.edu/sanchez/papers/2016.model.hpca.pdf
+*  **Summary**
+	* The accesses to LLC are typically filtered by upper-level private caches, so the input stream of LLC is typically stripped from temporal correlation. Motivated by such property of LLC, Beckmann et al. developed a generic cache model that predicts the performance of age-based replacement policies on modern LLCs. The model established a relationship between reuse time distribution, hit and evict distribution, then it takes reuse time distribution of the workload as the input solves hit and evict distribution through a fixed point iteration.  Although the original work does not provide rigorous convergence criteria, their empirical results show the model makes a very accurate prediction when the model assumption holds.
 ## Caching Theory
 
 Caching Is Hard—Even in the Fault Model
@@ -239,11 +241,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzU3NDAwMiwtMTM1NTk4NzE1NCwxMj
-M2NDc2NDI2LC02Mjc4MjgxNDQsNTI4MzA1MzksMjEwNDMzNDY2
-OCwxMDQwMDg0NDI4LC03NzgzNjc4MDcsMjA0OTMzODQ5MSw1Nj
-I2OTEzMzEsMjAxOTcxMTY0Nyw1Njc4NTUzMjMsMTU4ODU0ODE1
-MSwtOTgyNjE0NTg0LDExMzc1ODMxMDYsLTIxODYwNzUxNSwtOD
-gwOTcxNzYsLTE4MDI2OTA1OTEsMTQ3NzE1NDQ1Myw3NDU3ODU5
-MzNdfQ==
+eyJoaXN0b3J5IjpbMzY4OTE3NjIzLC0xMzU1OTg3MTU0LDEyMz
+Y0NzY0MjYsLTYyNzgyODE0NCw1MjgzMDUzOSwyMTA0MzM0NjY4
+LDEwNDAwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4NDkxLDU2Mj
+Y5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NTQ4MTUx
+LC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1LC04OD
+A5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NTc4NTkz
+M119
 -->
