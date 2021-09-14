@@ -163,7 +163,7 @@ Efficient Stack Distance Computation for a Class of Priority Replacement Policie
 - https://link-springer-com.services.lib.mtu.edu/content/pdf/10.1007/s10766-012-0200-2.pdf
 
 * **Summary**
-	*  This work defined a set of algorithm called *Nearly Static Priority Policies" 
+	*   Bilardi et al., proposed a new representation for stack processing called Min-Tree and introduced a class of replacement policies called NSP . A replacement policy belongs to the class NSP if, under such policy, the priority of an item only changes upon access to that item. Replacement policies such as OPT, LFU, LRU, and MRU belong to the class NSP. Under Min-Tree representation the cost of processing certain NSP stacks can be significantly reduced. Bilardi et al. show that the time cost of the Min-Tree algorithm is depending on the expected number of swap positions per stack update. For a stack with $D$ expected swap positions per update, Min-Tree is expected to complete the stack update in $O(D*Log\phi)$ time. When compared to the original linear stack, Min-Tree representation shows significant performance improvement over policies that have a small expected number of swap positions, such policies include LFU, MRU, and OPT. 
 
 (MIMIR) Dynamic Performance Profiling of Cloud Caches [Bjornsson SoCC'13]
 * https://ymsir.com/papers/profiling-socc.pdf
@@ -244,11 +244,11 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzgyODE0NCw1MjgzMDUzOSwyMTA0Mz
-M0NjY4LDEwNDAwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4NDkx
-LDU2MjY5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NT
-Q4MTUxLC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1
-LC04ODA5NzE3NiwtMTgwMjY5MDU5MSwxNDc3MTU0NDUzLDc0NT
-c4NTkzMywtNjQxMjg5ODUsNjE3NzU5NTA1LC04NTUwMzE2MzNd
+eyJoaXN0b3J5IjpbMTIzNjQ3NjQyNiwtNjI3ODI4MTQ0LDUyOD
+MwNTM5LDIxMDQzMzQ2NjgsMTA0MDA4NDQyOCwtNzc4MzY3ODA3
+LDIwNDkzMzg0OTEsNTYyNjkxMzMxLDIwMTk3MTE2NDcsNTY3OD
+U1MzIzLDE1ODg1NDgxNTEsLTk4MjYxNDU4NCwxMTM3NTgzMTA2
+LC0yMTg2MDc1MTUsLTg4MDk3MTc2LC0xODAyNjkwNTkxLDE0Nz
+cxNTQ0NTMsNzQ1Nzg1OTMzLC02NDEyODk4NSw2MTc3NTk1MDVd
 fQ==
 -->
