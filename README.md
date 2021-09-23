@@ -247,17 +247,17 @@ Multiple Set Matching and Pre-Filtering with Bloom Multifilters
 Enhancing the Scalability of Memcached [Langston, 2012]
 * https://software.intel.com/content/www/us/en/develop/articles/enhancing-the-scalability-of-memcached.html
 
-
+* Reading_notes
 # Memory Technologies
 
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTQ0OTAyMSwtMjM0NjM1ODY5LDM2OD
-kxNzYyMywtMTM1NTk4NzE1NCwxMjM2NDc2NDI2LC02Mjc4Mjgx
-NDQsNTI4MzA1MzksMjEwNDMzNDY2OCwxMDQwMDg0NDI4LC03Nz
-gzNjc4MDcsMjA0OTMzODQ5MSw1NjI2OTEzMzEsMjAxOTcxMTY0
-Nyw1Njc4NTUzMjMsMTU4ODU0ODE1MSwtOTgyNjE0NTg0LDExMz
-c1ODMxMDYsLTIxODYwNzUxNSwtODgwOTcxNzYsLTE4MDI2OTA1
-OTFdfQ==
+eyJoaXN0b3J5IjpbMTI5NzQ3OTczLC04ODE0NDkwMjEsLTIzND
+YzNTg2OSwzNjg5MTc2MjMsLTEzNTU5ODcxNTQsMTIzNjQ3NjQy
+NiwtNjI3ODI4MTQ0LDUyODMwNTM5LDIxMDQzMzQ2NjgsMTA0MD
+A4NDQyOCwtNzc4MzY3ODA3LDIwNDkzMzg0OTEsNTYyNjkxMzMx
+LDIwMTk3MTE2NDcsNTY3ODU1MzIzLDE1ODg1NDgxNTEsLTk4Mj
+YxNDU4NCwxMTM3NTgzMTA2LC0yMTg2MDc1MTUsLTg4MDk3MTc2
+XX0=
 -->
