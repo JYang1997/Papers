@@ -31,14 +31,14 @@ typedef  struct  _stritem {
 	struct  _stritem  *next;
 	struct  _stritem  *prev;
 	/* Rest are protected by an item lock */
-	struct  _stritem  *h_next; /* hash chain next */
-	rel_time_t  time; /* least recent access */
-	rel_time_t  exptime; /* expire time */
-	int  nbytes; /* size of data */
-	unsigned  short  refcount;
-	uint16_t  it_flags; /* ITEM_* above */
-	uint8_t  slabs_clsid;/* which slab class we're in */
-	uint8_t  nkey; /* key length, w/terminating null and padding */
+	struct  _stritem  *h_next; 		/* hash chain next */
+	rel_time_t  		time; 		/* least recent access */
+	rel_time_t  		exptime; 	/* expire time */
+	int  				nbytes; 	/* size of data */
+	unsigned  short  	refcount;
+	uint16_t  			it_flags; 	/* ITEM_* above */
+	uint8_t  			slabs_clsid;	/* which slab class we're in */
+	uint8_t  			nkey; 			/* key length, w/terminating null and padding */
 	/* this odd type prevents type-punning issues when we do
 	* the little shuffle to save space when not using CAS. */
 	union {
@@ -56,6 +56,6 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NTM1MzQsMTIyNjg5Mjc0LC0xMTUxMD
-I2MjU3LDIwMDQ3MzY2MTAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODI3NTYyODU0LDEyMjY4OTI3NCwtMTE1MT
+AyNjI1NywyMDA0NzM2NjEwLDczMDk5ODExNl19
 -->
