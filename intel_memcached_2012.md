@@ -21,8 +21,59 @@ after 3-4 cores, throughput significantly degrade.
 Memcached maintain an array of `slabclass` as:
 
 `slabclass[MAX_NUMBER_OF_SLAB_CLASSES]`
+
+```c
+/**
+
+* Structure for storing items within memcached.
+
+*/
+
+typedef  struct  _stritem {
+
+/* Protected by LRU locks */
+
+struct  _stritem  *next;
+
+struct  _stritem  *prev;
+
+/* Rest are protected by an item lock */
+
+struct  _stritem  *h_next; /* hash chain next */
+
+rel_time_t  time; /* least recent access */
+
+rel_time_t  exptime; /* expire time */
+
+int  nbytes; /* size of data */
+
+unsigned  short  refcount;
+
+uint16_t  it_flags; /* ITEM_* above */
+
+uint8_t  slabs_clsid;/* which slab class we're in */
+
+uint8_t  nkey; /* key length, w/terminating null and padding */
+
+/* this odd type prevents type-punning issues when we do
+
+* the little shuffle to save space when not using CAS. */
+
+union {
+	uint64_t  cas;
+	char  end;
+	} data[];
+
+	/* if it_flags & ITEM_CAS we have 8 bytes CAS */
+	/* then null-terminated key */
+	/* then " flags length\r\n" (no terminating null) */
+	/* then data with terminating \r\n (no terminating null; it's binary!) */
+} item;
+```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjg5Mjc0LC0xMTUxMDI2MjU3LDIwMD
-Q3MzY2MTAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTczMzIzMTYzMCwxMjI2ODkyNzQsLTExNT
+EwMjYyNTcsMjAwNDczNjYxMCw3MzA5OTgxMTZdfQ==
 -->
