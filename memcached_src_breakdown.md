@@ -34,10 +34,10 @@ static size_t mem_malloced = 0;
 ```c
 static void *mem_base = NULL;
 ```
-When you prealloc memory during initialization, then this **mem_base** will serve as pointer to the prealloc memory.
 ```c
 static  void *mem_current = NULL;
 ```
+When you prealloc memory during initialization, then this **mem_base** will serve as pointer to the prealloc memory. When *memory_allocate()
 ```c
 static  size_t  mem_avail = 0;
 ```
@@ -82,7 +82,7 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4ODc2MzYzLC0xNDQzNTg0NTg5LDIwMj
-U2OTEwNzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5
-NDQ3LDgyNzU2Mjg1NF19
+eyJoaXN0b3J5IjpbLTIxMTc1Mzk2OTMsLTE0NDM1ODQ1ODksMj
+AyNTY5MTA3MywtMTc5MzQwMTk4MiwtMjM2NjkyODI2LC0zNDUx
+Mzk0NDcsODI3NTYyODU0XX0=
 -->
