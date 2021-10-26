@@ -22,27 +22,35 @@ Memcached maintain an array of `slabclass` as:
 
 `slabclass[MAX_NUMBER_OF_SLAB_CLASSES]`
 
-### Relevant global parameters:
+### Relevant Global Parameters:
 ```c
 static size_t mem_limit = 0;
 ```
-**mem_limit** is set during *slabs_init()*, this controls the maximum allowed number of bytes specified by the user.
+- **mem_limit** is set during *slabs_init()*, this controls the maximum allowed number of bytes specified by the user.
 ```c
 static size_t mem_malloced = 0;
 ```
-**mem_malloced** stores the total memory currently allocated. The mem_malloced get increment by "size" whenever *memory_allocate(size)* is called. In memcached, when *prealloc* option is on the *slab_init()* will try to allocate until *mem_limit* is reached. 
+- **mem_malloced** stores the total memory currently allocated. The mem_malloced get increment by "size" whenever *memory_allocate(size)* is called. This by default, typically will increment 1 MB at a time, because the default page (slab) size is 1MB, memcached allocate 1 slab at a time. In memcached, when *prealloc* option is on, the *slab_init()* will try to allocate until *mem_limit* is reached. 
+```c
+static bool mem_limit_reached = false;
+```
+- **[temp]** This indicates wether mem_limit has been hit, when slabs rebalance finished this is set back to false. This variable seems like is for *exstore*. None of the slab function in slab.c is actually depends on this parameters.
+```c
+static  int  power_largest;
+```
+- **power_largest** is the index of largest slabc
+
 ```c
 static void *mem_base = NULL;
-```
-```c
 static  void *mem_current = NULL;
-```
-When you prealloc memory during initialization, then this **mem_base** will serve as pointer to the prealloc memory. The **mem_current** is pointer to the next avaliable memory from prealloc memory. When *memory_allocate()* method is called, the system will return
-```c
 static  size_t  mem_avail = 0;
 ```
+- When you prealloc memory during initialization, then this **mem_base** will serve as pointer to the prealloc memory. The **mem_current** is pointer to the next avaliable memory from prealloc memory. When *memory_allocate()* method is called, *if memory is prealloc*, the function will return mem_current pointer, and move the *mem_current* to next available address. 
+- **mem_avail** simply tracks the size of remaining preallocated memory
+- *These three parameters are only used when you configure memcached with preallocate memory*
 
-### Relevant internal slab functions:
+
+### Relevant Internal Slab Functions:
 
 ```c
 void  slabs_init(const size_t limit, const double factor, const bool prealloc, const uint32_t *slab_sizes, void *mem_base_external, bool  reuse_mem);
@@ -82,7 +90,7 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMj
-U2OTEwNzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5
-NDQ3LDgyNzU2Mjg1NF19
+eyJoaXN0b3J5IjpbMjExODg2NTQ3OSwtODQ1MzU3NTYsLTE0ND
+M1ODQ1ODksMjAyNTY5MTA3MywtMTc5MzQwMTk4MiwtMjM2Njky
+ODI2LC0zNDUxMzk0NDcsODI3NTYyODU0XX0=
 -->
