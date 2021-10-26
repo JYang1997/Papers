@@ -30,7 +30,7 @@ static size_t mem_limit = 0;
 ```c
 static size_t mem_malloced = 0;
 ```
-**mem_malloced** stores the total memory currently allocated. 
+**mem_malloced** stores the total memory currently allocated. The mem_malloced get incremented whenever *memory_allocate(size)* is called. 
 
 ### Relevant internal slab functions:
 
@@ -72,6 +72,7 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTY5MTA3MywtMTc5MzQwMTk4MiwtMj
-M2NjkyODI2LC0zNDUxMzk0NDcsODI3NTYyODU0XX0=
+eyJoaXN0b3J5IjpbLTE3MjE3MTIwNDEsMjAyNTY5MTA3MywtMT
+c5MzQwMTk4MiwtMjM2NjkyODI2LC0zNDUxMzk0NDcsODI3NTYy
+ODU0XX0=
 -->
