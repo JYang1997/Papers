@@ -26,10 +26,12 @@ Memcached maintain an array of `slabclass` as:
 ```c
 static size_t mem_limit = 0;
 ```
-**mem_limit** is set during *slabs_init()*, this
+**mem_limit** is set during *slabs_init()*, this controls the maximum allowed number of bytes specified by the user.
 ```c
 static size_t mem_malloced = 0;
 ```
+**mem_malloced** stores the total memory curr
+
 ### Relevant internal slab functions:
 
 ```c
@@ -70,6 +72,6 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTg5OTQ1NiwtMTc5MzQwMTk4MiwtMj
+eyJoaXN0b3J5IjpbLTc1MjIzOTY1OCwtMTc5MzQwMTk4MiwtMj
 M2NjkyODI2LC0zNDUxMzk0NDcsODI3NTYyODU0XX0=
 -->
