@@ -37,7 +37,7 @@ static void *mem_base = NULL;
 ```c
 static  void *mem_current = NULL;
 ```
-When you prealloc memory during initialization, then this **mem_base** will serve as pointer to the prealloc memory. The **mem_current** is pointer to the next avaliable memoWhen *memory_allocate()* method is called, the system will return
+When you prealloc memory during initialization, then this **mem_base** will serve as pointer to the prealloc memory. The **mem_current** is pointer to the next avaliable memory from prealloc memory. When *memory_allocate()* method is called, the system will return
 ```c
 static  size_t  mem_avail = 0;
 ```
@@ -82,7 +82,7 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzU5MTg2NiwtMTQ0MzU4NDU4OSwyMD
-I1NjkxMDczLC0xNzkzNDAxOTgyLC0yMzY2OTI4MjYsLTM0NTEz
-OTQ0Nyw4Mjc1NjI4NTRdfQ==
+eyJoaXN0b3J5IjpbLTg0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMj
+U2OTEwNzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5
+NDQ3LDgyNzU2Mjg1NF19
 -->
