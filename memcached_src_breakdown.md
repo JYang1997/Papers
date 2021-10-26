@@ -22,8 +22,13 @@ Memcached maintain an array of `slabclass` as:
 
 `slabclass[MAX_NUMBER_OF_SLAB_CLASSES]`
 
+### Relevant global parameters:
+```c
+static size_t mem_limit = 0;
+static size_t mem_malloced = 0;
+```
+### Relevant internal slab functions:
 
-Relevant internal slab functions:
 ```c
 void  slabs_init(const size_t limit, const double factor, const bool prealloc, const uint32_t *slab_sizes, void *mem_base_external, bool  reuse_mem);
 
@@ -64,5 +69,6 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTEzOTQ0Nyw4Mjc1NjI4NTRdfQ==
+eyJoaXN0b3J5IjpbLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LDgyNz
+U2Mjg1NF19
 -->
