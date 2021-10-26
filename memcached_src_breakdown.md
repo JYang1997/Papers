@@ -34,6 +34,7 @@ static size_t mem_malloced = 0;
 ```c
 static void *mem_base = NULL;
 ```
+
 ```c
 static  void *mem_current = NULL;
 ```
@@ -81,7 +82,7 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM1ODQ1ODksMjAyNTY5MTA3MywtMT
-c5MzQwMTk4MiwtMjM2NjkyODI2LC0zNDUxMzk0NDcsODI3NTYy
-ODU0XX0=
+eyJoaXN0b3J5IjpbMTQ2OTUzMDI3MywtMTQ0MzU4NDU4OSwyMD
+I1NjkxMDczLC0xNzkzNDAxOTgyLC0yMzY2OTI4MjYsLTM0NTEz
+OTQ0Nyw4Mjc1NjI4NTRdfQ==
 -->
