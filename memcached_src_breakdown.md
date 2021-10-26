@@ -6,9 +6,10 @@ after 3-4 cores, throughput significantly degrade.
 
 ## Memcached - Slabs.c
 -----------------------------------------------------
+The *slabclass* is memcached is defined as follow:
 ```c
 	typedef  struct {
-		unsigned  int size; /* sizes of items */
+		unsigned  int size; /* sizes of items (chunk size)*/
 		unsigned  int perslab; /* how many items per slab */
 		void *slots; /* list of item ptrs */
 		unsigned  int sl_curr; /* total free items in list */
@@ -18,9 +19,12 @@ after 3-4 cores, throughput significantly degrade.
 	} slabclass_t;
 ```
 
-Memcached maintain an array of `slabclass` as:
+The Memcached maintains a global array of `slabclass` as:
 
-`slabclass[MAX_NUMBER_OF_SLAB_CLASSES]`
+```c
+static slabclass_t  slabclass[MAX_NUMBER_OF_SLAB_CLASSES];
+```
+- 
 
 ### Relevant Global Parameters:
 ```c
@@ -38,7 +42,7 @@ static bool mem_limit_reached = false;
 ```c
 static  int  power_largest;
 ```
-- **power_largest** is the index of largest slabc
+- **power_largest** is the index of largest slabclass. The name power_largest is probably because, by default, the chunk size of each slabclass is increase by a factor every time, hence the chunk size is power of the slabclass's index. 
 
 ```c
 static void *mem_base = NULL;
@@ -55,7 +59,8 @@ static  size_t  mem_avail = 0;
 ```c
 void  slabs_init(const size_t limit, const double factor, const bool prealloc, const uint32_t *slab_sizes, void *mem_base_external, bool  reuse_mem);
 ```
-
+## Memcached - items.c
+-----------------------------------------------------
 ```c
 /**
 * Structure for storing items within memcached.
@@ -90,7 +95,7 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODg2NTQ3OSwtODQ1MzU3NTYsLTE0ND
-M1ODQ1ODksMjAyNTY5MTA3MywtMTc5MzQwMTk4MiwtMjM2Njky
-ODI2LC0zNDUxMzk0NDcsODI3NTYyODU0XX0=
+eyJoaXN0b3J5IjpbLTE4OTYyMjI5MjQsLTg0NTM1NzU2LC0xND
+QzNTg0NTg5LDIwMjU2OTEwNzMsLTE3OTM0MDE5ODIsLTIzNjY5
+MjgyNiwtMzQ1MTM5NDQ3LDgyNzU2Mjg1NF19
 -->
