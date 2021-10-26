@@ -31,8 +31,6 @@ static size_t mem_malloced = 0;
 
 ```c
 void  slabs_init(const size_t limit, const double factor, const bool prealloc, const uint32_t *slab_sizes, void *mem_base_external, bool  reuse_mem);
-
-
 ```
 
 ```c
@@ -69,6 +67,6 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LDgyNz
-U2Mjg1NF19
+eyJoaXN0b3J5IjpbLTE3OTM0MDE5ODIsLTIzNjY5MjgyNiwtMz
+Q1MTM5NDQ3LDgyNzU2Mjg1NF19
 -->
