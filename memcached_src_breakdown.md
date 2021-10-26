@@ -30,7 +30,14 @@ static size_t mem_limit = 0;
 ```c
 static size_t mem_malloced = 0;
 ```
-**mem_malloced** stores the total memory currently allocated. The mem_malloced get increment by "size" whenever *memory_allocate(size)* is called. In memcached, when *prealloc* option is on the *slab_init()* will try to allocate 
+**mem_malloced** stores the total memory currently allocated. The mem_malloced get increment by "size" whenever *memory_allocate(size)* is called. In memcached, when *prealloc* option is on the *slab_init()* will try to allocate until *mem_limit* is reached. 
+```c
+static  void *mem_base = NULL;
+
+static  void *mem_current = NULL;
+
+static  size_t  mem_avail = 0;
+
 
 ### Relevant internal slab functions:
 
@@ -72,7 +79,7 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUxMjEwMTgsMjAyNTY5MTA3MywtMT
+eyJoaXN0b3J5IjpbLTE3NDkwNzQyMDEsMjAyNTY5MTA3MywtMT
 c5MzQwMTk4MiwtMjM2NjkyODI2LC0zNDUxMzk0NDcsODI3NTYy
 ODU0XX0=
 -->
