@@ -30,7 +30,7 @@ static size_t mem_limit = 0;
 ```c
 static size_t mem_malloced = 0;
 ```
-**mem_malloced** stores the total memory curr
+**mem_malloced** stores the total memory currently allocated. 
 
 ### Relevant internal slab functions:
 
@@ -72,6 +72,6 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjIzOTY1OCwtMTc5MzQwMTk4MiwtMj
+eyJoaXN0b3J5IjpbMjAyNTY5MTA3MywtMTc5MzQwMTk4MiwtMj
 M2NjkyODI2LC0zNDUxMzk0NDcsODI3NTYyODU0XX0=
 -->
