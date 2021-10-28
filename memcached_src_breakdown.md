@@ -22,7 +22,7 @@ The *slabclass* is memcached is defined as follow:
 The Memcached maintains a global array of `slabclass` as:
 
 ```c
-static slabclass_t  slabclass[MAX_NUMBER_OF_SLAB_CLASSES];
+static slabclass_t slabclass[MAX_NUMBER_OF_SLAB_CLASSES];
 ```
 - 
 
@@ -59,9 +59,15 @@ static  size_t  mem_avail = 0;
 ```c
 void  slabs_init(const size_t limit, const double factor, const bool prealloc, const uint32_t *slab_sizes, void *mem_base_external, bool  reuse_mem);
 ```
-- The slab init is called in the initialization phase of memcached in main().
+- The slab init is called in the initialization phase of memcached in `main()`.
 - This function has two primary tasks
-	- If prealloc is set, memcached will preallocate the memory (this could be on external memory specified by the `mem_base_external` pointer) or memcached will start allocates slabs until the memory `limits`. These preallocated memory or slabs will be stored on the first slabclass, `slabclass[0]`, this slab class 
+	- The main tasks of this function is to initialize the `slabclass[]` array.  Particularly, this function initialize field: `slabclass->size` and 	`slabclass->perslab`.  By defaults, the slabclass start with `size = sizeof(item) + settings.chunk_size` (the default chunk size is 48). Then the size of next slabclass grow by the `factor`.  Note that the size of the last slabclass is always equal to the `slab_chunk_size_max`, which is by default set to half of the slab's size. If the input `slab_sizes` array is not null, the slabclass's size will initialize according to the `slab_sizes` array. Then, the `perslab` field is calculated based on the `size` of each slabclass. *Note that the slab's chunk size is 8 bytes aligned, so if the `slab_sizes` array is not aligned then they adjust the `size` to make it 8 bytes aligned.*
+	- If prealloc is set, memcached will preallocate the memory (this could be on external memory specified by the `mem_base_external` pointer) or memcached will start allocates slabs until the memory `limits`. These preallocated memory or slabs will be stored on the first slabclass, `slabclass[0]`. In case the memory is preallocated, this slab class acts as a global free slab pool, which stores all free  unclaimed slabs. 
+
+```c
+static int grow_slab_list (const unsigned int id);
+```
+
 ## Memcached - items.c
 -----------------------------------------------------
 ```c
@@ -98,8 +104,8 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMyNDgwMDgsLTE4OTYyMjI5MjQsLT
-g0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMjU2OTEwNzMsLTE3OTM0
-MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LDgyNzU2Mjg1NF
-19
+eyJoaXN0b3J5IjpbMzMwMjgyNzQ0LC0xODk2MjIyOTI0LC04ND
+UzNTc1NiwtMTQ0MzU4NDU4OSwyMDI1NjkxMDczLC0xNzkzNDAx
+OTgyLC0yMzY2OTI4MjYsLTM0NTEzOTQ0Nyw4Mjc1NjI4NTRdfQ
+==
 -->
