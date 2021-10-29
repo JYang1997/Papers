@@ -24,7 +24,10 @@ The Memcached maintains a global array of `slabclass` as:
 ```c
 static slabclass_t slabclass[MAX_NUMBER_OF_SLAB_CLASSES];
 ```
-- 
+**slabclass_t fields description:**
+-  **size** define the chunk size of the slab class (chunk size is 8 bytes aligned in memcached)
+-  **perslab** is the number of chunk each slab can hold. (By default each slab (page) is 1MB)
+- **slots**
 
 ### Relevant Global Parameters:
 ```c
@@ -68,6 +71,7 @@ void  slabs_init(const size_t limit, const double factor, const bool prealloc, c
 static int grow_slab_list (const unsigned int id);
 ```
 
+
 ## Memcached - items.c
 -----------------------------------------------------
 ```c
@@ -104,8 +108,8 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMjgyNzQ0LC0xODk2MjIyOTI0LC04ND
-UzNTc1NiwtMTQ0MzU4NDU4OSwyMDI1NjkxMDczLC0xNzkzNDAx
-OTgyLC0yMzY2OTI4MjYsLTM0NTEzOTQ0Nyw4Mjc1NjI4NTRdfQ
-==
+eyJoaXN0b3J5IjpbMTc3NTE5MDkzOSwzMzAyODI3NDQsLTE4OT
+YyMjI5MjQsLTg0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMjU2OTEw
+NzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LD
+gyNzU2Mjg1NF19
 -->
