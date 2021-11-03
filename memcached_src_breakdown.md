@@ -27,7 +27,10 @@ static slabclass_t slabclass[MAX_NUMBER_OF_SLAB_CLASSES];
 **slabclass_t fields description:**
 -  **size** define the chunk size of the slab class (chunk size is 8 bytes aligned in memcached)
 -  **perslab** is the number of chunk each slab can hold. (By default each slab (page) is 1MB)
-- **slots**
+- **slots** is a list of free chunks in the slab class. When a new slab is added to the slab class, slab class will first convert the slab to a list of chunks then prepend these chunks to this freelist (`slots`). When reclaiming chunk from freed item (evict or delete), the chunk will also be added back to this freelist. 
+- **sl_curr** tracks size of the freelist (total avaliable chunks in the slab class).
+- **slab_list** is an array of pointers to all slabs that belong to this slab class. (when the array is saturated, the size of the slab_list grow by factors of two every time)
+- **list_size** is the size of `slab_list`.
 
 ### Relevant Global Parameters:
 ```c
@@ -108,7 +111,7 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTE5MDkzOSwzMzAyODI3NDQsLTE4OT
+eyJoaXN0b3J5IjpbMjA4ODQ4NjIyMywzMzAyODI3NDQsLTE4OT
 YyMjI5MjQsLTg0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMjU2OTEw
 NzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LD
 gyNzU2Mjg1NF19
