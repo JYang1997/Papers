@@ -3,6 +3,12 @@
 contention problem in memcached.
 after 3-4 cores, throughput significantly degrade.
 
+## Check here for full official documentation of ascii protocol commands.
+[https://github.com/memcached/memcached/blob/master/doc/protocol.txt](https://github.com/memcached/memcached/blob/master/doc/protocol.txt)
+
+## Check here for full official documentation of binary protocol commands.
+[https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped](https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped)
+
 
 ## Memcached - Slabs.c
 -----------------------------------------------------
