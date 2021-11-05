@@ -7,7 +7,8 @@ after 3-4 cores, throughput significantly degrade.
 [https://github.com/memcached/memcached/blob/master/doc/protocol.txt](https://github.com/memcached/memcached/blob/master/doc/protocol.txt)
 
 ## Check here for full official documentation of binary protocol commands.
-[https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped](https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped)
+[https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped](https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped) Memcached-1.6.10 Source Code Break Down
+-----------------------------------------------------
 
 
 ## Memcached - Slabs.c
@@ -81,8 +82,10 @@ static int grow_slab_list (const unsigned int id);
 ```
 
 
-## Memcached - items.c
+## Memcached - items.
 -----------------------------------------------------
+
+
 ```c
 /**
 * Structure for storing items within memcached.
@@ -113,14 +116,17 @@ typedef  struct  _stritem {
 	/* then data with terminating \r\n (no terminating null; it's binary!) */
 } item;
 ```
+**_stritem fields description:**
+- `slabs_clsid`  
+
 
 ## Memcached - threads.c
 -----------------------------------------------------
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTEwNjAzNCwzMzAyODI3NDQsLTE4OT
-YyMjI5MjQsLTg0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMjU2OTEw
-NzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LD
-gyNzU2Mjg1NF19
+eyJoaXN0b3J5IjpbLTE5NzczNzE1OTUsMTM3OTEwNjAzNCwzMz
+AyODI3NDQsLTE4OTYyMjI5MjQsLTg0NTM1NzU2LC0xNDQzNTg0
+NTg5LDIwMjU2OTEwNzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNi
+wtMzQ1MTM5NDQ3LDgyNzU2Mjg1NF19
 -->
