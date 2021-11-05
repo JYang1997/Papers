@@ -89,6 +89,7 @@ LHD
 - [https://www.usenix.org/system/files/conference/nsdi18/nsdi18-beckmann.pdf](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-beckmann.pdf)
 
 - github(src): [https://github.com/CMU-CORGI/LHD](https://github.com/CMU-CORGI/LHD)
+- Partial validation from ben-manes (https://github.com/ben-manes/caffeine/issues/232)
 
  Hyperbolic Caching: Flexible Caching for Web Applications [Aaron Blankstein 2017]
  - https://www.usenix.org/system/files/conference/atc17/atc17-blankstein.pdf
@@ -253,7 +254,7 @@ Enhancing the Scalability of Memcached [Langston, 2012]
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODEwNzk4MywtODgxNDQ5MDIxLC0yMz
+eyJoaXN0b3J5IjpbLTg3ODk2ODI5MCwtODgxNDQ5MDIxLC0yMz
 Q2MzU4NjksMzY4OTE3NjIzLC0xMzU1OTg3MTU0LDEyMzY0NzY0
 MjYsLTYyNzgyODE0NCw1MjgzMDUzOSwyMTA0MzM0NjY4LDEwND
 AwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4NDkxLDU2MjY5MTMz
