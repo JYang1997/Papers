@@ -2,12 +2,13 @@
 
 contention problem in memcached.
 after 3-4 cores, throughput significantly degrade.
+# Memcached-1.6.10 Source Code Break Down
 
 ## Check here for full official documentation of ascii protocol commands.
 [https://github.com/memcached/memcached/blob/master/doc/protocol.txt](https://github.com/memcached/memcached/blob/master/doc/protocol.txt)
 
 ## Check here for full official documentation of binary protocol commands.
-[https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped](https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped) Memcached-1.6.10 Source Code Break Down
+[https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped](https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped) 
 -----------------------------------------------------
 
 
@@ -125,8 +126,8 @@ typedef  struct  _stritem {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzExNzMxOCwxMzc5MTA2MDM0LDMzMD
-I4Mjc0NCwtMTg5NjIyMjkyNCwtODQ1MzU3NTYsLTE0NDM1ODQ1
-ODksMjAyNTY5MTA3MywtMTc5MzQwMTk4MiwtMjM2NjkyODI2LC
-0zNDUxMzk0NDcsODI3NTYyODU0XX0=
+eyJoaXN0b3J5IjpbLTE3MTI0OTkzNzUsMTM3OTEwNjAzNCwzMz
+AyODI3NDQsLTE4OTYyMjI5MjQsLTg0NTM1NzU2LC0xNDQzNTg0
+NTg5LDIwMjU2OTEwNzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNi
+wtMzQ1MTM5NDQ3LDgyNzU2Mjg1NF19
 -->
