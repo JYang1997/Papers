@@ -86,7 +86,12 @@ static int grow_slab_list (const unsigned int id);
 ## Memcached - items.{c, h}
 -----------------------------------------------------
 
+### Segmented LRU
 
+- Memcached originally have 255 slab classes avaliable  by default (exclude the "special" slab[0]). The item stores its slab class id in `uint8_t slabs_clsid`. 
+- Segment LRU replacement breaks LRU list into four different sub-list.
+	- HOT_LRU, WARM_LRU, COLD_LRU, TEMP_LRU
+------------------------------------------------------------
 ```c
 /**
 * Structure for storing items within memcached.
@@ -121,13 +126,39 @@ typedef  struct  _stritem {
 - `slabs_clsid`  
 
 
+```c
+/* See items.c */
+uint64_t  get_cas_id(void);
+void  set_cas_id(uint64_t  new_cas);
+/*@null@*/
+item  *do_item_alloc(char  *key, const  size_t  nkey, const  unsigned  int  flags, const  rel_time_t  exptime, const  int  nbytes);
+item_chunk  *do_item_alloc_chunk(item_chunk  *ch, const  size_t  bytes_remain);
+item  *do_item_alloc_pull(const  size_t  ntotal, const  unsigned  int  id);
+void  item_free(item  *it);
+bool  item_size_ok(const  size_t  nkey, const  int  flags, const  int  nbytes);
+int  do_item_link(item  *it, const  uint32_t  hv); /** may fail if transgresses limits */
+void  do_item_unlink(item  *it, const  uint32_t  hv);
+void  do_item_unlink_nolock(item  *it, const  uint32_t  hv);
+void  do_item_remove(item  *it);
+void  do_item_update(item  *it); /** update LRU time to current and reposition */
+void  do_item_update_nolock(item  *it);
+int  do_item_replace(item  *it, item  *new_it, const  uint32_t  hv);
+void  do_item_link_fixup(item  *it);
+int  item_is_flushed(item  *it);
+unsigned  int  do_get_lru_size(uint32_t  id);
+void  do_item_linktail_q(item  *it);
+void  do_item_unlinktail_q(item  *it);
+item  *do_item_crawl_q(item  *it);
+void  *item_lru_bump_buf_create(void);
+```
+
 ## Memcached - threads.c
 -----------------------------------------------------
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI0OTkzNzUsMTM3OTEwNjAzNCwzMz
-AyODI3NDQsLTE4OTYyMjI5MjQsLTg0NTM1NzU2LC0xNDQzNTg0
-NTg5LDIwMjU2OTEwNzMsLTE3OTM0MDE5ODIsLTIzNjY5MjgyNi
-wtMzQ1MTM5NDQ3LDgyNzU2Mjg1NF19
+eyJoaXN0b3J5IjpbLTg0MzgxNzE4NywtMTcxMjQ5OTM3NSwxMz
+c5MTA2MDM0LDMzMDI4Mjc0NCwtMTg5NjIyMjkyNCwtODQ1MzU3
+NTYsLTE0NDM1ODQ1ODksMjAyNTY5MTA3MywtMTc5MzQwMTk4Mi
+wtMjM2NjkyODI2LC0zNDUxMzk0NDcsODI3NTYyODU0XX0=
 -->
