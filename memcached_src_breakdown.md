@@ -152,13 +152,24 @@ item  *do_item_crawl_q(item  *it);
 void  *item_lru_bump_buf_create(void);
 ```
 
+
+
+```c
+int  lru_pull_tail(const int orig_id, 
+				   const int cur_lru,
+				   const uint64_t total_bytes, 
+				   const uint8_t flags,
+				   const rel_time_t max_age, 
+				   struct lru_pull_tail_return *ret_it)
+```
 ## Memcached - threads.c
 -----------------------------------------------------
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzgxNzE4NywtMTcxMjQ5OTM3NSwxMz
-c5MTA2MDM0LDMzMDI4Mjc0NCwtMTg5NjIyMjkyNCwtODQ1MzU3
-NTYsLTE0NDM1ODQ1ODksMjAyNTY5MTA3MywtMTc5MzQwMTk4Mi
-wtMjM2NjkyODI2LC0zNDUxMzk0NDcsODI3NTYyODU0XX0=
+eyJoaXN0b3J5IjpbLTk5MTAxNDk4LC04NDM4MTcxODcsLTE3MT
+I0OTkzNzUsMTM3OTEwNjAzNCwzMzAyODI3NDQsLTE4OTYyMjI5
+MjQsLTg0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMjU2OTEwNzMsLT
+E3OTM0MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LDgyNzU2
+Mjg1NF19
 -->
