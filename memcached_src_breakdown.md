@@ -124,7 +124,7 @@ typedef  struct  _stritem {
 ```
 **_stritem fields description:**
 - `slabs_clsid`  
-- `refcount`, memcached use counter technique to avoid "early removal". For each item, the refcount is initially 1. The 1 represents that such item is currently referenced by LRU and hashtable.  In current version, the refcount is decremented by calling do_item_remove.
+- `refcount`, memcached use counter technique to avoid "early removal". For each item, the refcount is initially 1. After it add to LRU and hashtable, refcount is then increment by another 1. Total to 2.  In current version, the refcount is decremented by calling do_item_remove.
 
 
 ```c
@@ -168,9 +168,9 @@ int  lru_pull_tail(const int orig_id,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTU1NjE4NiwtOTkxMDE0OTgsLTg0Mz
-gxNzE4NywtMTcxMjQ5OTM3NSwxMzc5MTA2MDM0LDMzMDI4Mjc0
-NCwtMTg5NjIyMjkyNCwtODQ1MzU3NTYsLTE0NDM1ODQ1ODksMj
-AyNTY5MTA3MywtMTc5MzQwMTk4MiwtMjM2NjkyODI2LC0zNDUx
-Mzk0NDcsODI3NTYyODU0XX0=
+eyJoaXN0b3J5IjpbLTEwNjYwMzY5MywxNTc5NTU2MTg2LC05OT
+EwMTQ5OCwtODQzODE3MTg3LC0xNzEyNDk5Mzc1LDEzNzkxMDYw
+MzQsMzMwMjgyNzQ0LC0xODk2MjIyOTI0LC04NDUzNTc1NiwtMT
+Q0MzU4NDU4OSwyMDI1NjkxMDczLC0xNzkzNDAxOTgyLC0yMzY2
+OTI4MjYsLTM0NTEzOTQ0Nyw4Mjc1NjI4NTRdfQ==
 -->
