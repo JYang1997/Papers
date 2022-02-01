@@ -119,6 +119,7 @@ TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 - 	![TinyLFU OverView](https://github.com/JYang1997/Papers/blob/main/imgs/simpletinylfu.png)
 
 
+
 Kangaroo: Caching Billions of Tiny Objects on Flash [Sara McAllister, SOSP'2021]
 - https://dl.acm.org/doi/10.1145/3477132.3483568
 - github: https://github.com/saramcallister/Kangaroo
@@ -264,11 +265,11 @@ Enhancing the Scalability of Memcached [Langston, 2012]
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc1NzA0OTQsLTExODQyNDkyNzAsLT
-g3ODk2ODI5MCwtODgxNDQ5MDIxLC0yMzQ2MzU4NjksMzY4OTE3
-NjIzLC0xMzU1OTg3MTU0LDEyMzY0NzY0MjYsLTYyNzgyODE0NC
-w1MjgzMDUzOSwyMTA0MzM0NjY4LDEwNDAwODQ0MjgsLTc3ODM2
-NzgwNywyMDQ5MzM4NDkxLDU2MjY5MTMzMSwyMDE5NzExNjQ3LD
-U2Nzg1NTMyMywxNTg4NTQ4MTUxLC05ODI2MTQ1ODQsMTEzNzU4
-MzEwNl19
+eyJoaXN0b3J5IjpbODYxOTMwNzIsLTExODQyNDkyNzAsLTg3OD
+k2ODI5MCwtODgxNDQ5MDIxLC0yMzQ2MzU4NjksMzY4OTE3NjIz
+LC0xMzU1OTg3MTU0LDEyMzY0NzY0MjYsLTYyNzgyODE0NCw1Mj
+gzMDUzOSwyMTA0MzM0NjY4LDEwNDAwODQ0MjgsLTc3ODM2Nzgw
+NywyMDQ5MzM4NDkxLDU2MjY5MTMzMSwyMDE5NzExNjQ3LDU2Nz
+g1NTMyMywxNTg4NTQ4MTUxLC05ODI2MTQ1ODQsMTEzNzU4MzEw
+Nl19
 -->
