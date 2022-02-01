@@ -7,7 +7,7 @@ TODO :
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 
-**Lightweight Robust Size Aware Cache Management**[[Gil Einziger, 2021]
+Lightweight Robust Size Aware Cache Management[[Gil Einziger, 2021]
 - https://arxiv.org/pdf/2105.08770.pdf 
 - size aware extension to tinyLFU
 
@@ -117,6 +117,16 @@ TinyLFU: A Highly Efficient Cache Admission Policy [Gil Einziger, 2015]
 		- Under TinyLFU scheme frequency became dominant factor, recent works show that size distribution can have huge impact on cache performance. Thus, frequency dominant admission scheme might weaken the power of smart eviction scheme that uses item size. (The https://arxiv.org/pdf/2105.08770.pdf , 2021 is the most recent version by author, which address size aware issues) 
 	
 - 	![TinyLFU OverView](https://github.com/JYang1997/Papers/blob/main/imgs/simpletinylfu.png)
+
+
+Kangaroo: Caching Billions of Tiny Objects on Flash [Sara McAllister, SOSP'2021]
+- https://dl.acm.org/doi/10.1145/3477132.3483568
+- github: https://github.com/saramcallister/Kangaroo
+- **Main contribution:**
+	- flash can only write in block granularity, typically of size 4KB. As a result, writing tiny objects to flash suffer from huge write amplication. Flash device has write endurance, to ensure flash's life time, production system typically will limits flash device's write rate.
+	- naive log-structured cache amortize flash writes by wrting objects to a dram buffer first. It keeps a full in-memory indexs for objects in the flash for fast access, thus it is limited by dram capacity. Not enough dram will limit the indexable flash space (effective cache size).
+	- naive set-associative cache partition flash into different sets. object's location are determine by it hashed value. Each set typically has size of 4KB or multiple of flash writable block size. The problem is when directly writing tiny object to set-associative cache, entire block need to be rewritten, thus huge write amplications. As a result many objects could be blocked from entering flash due to limited write rate, thus causes high cache misses.
+	- This work's design placed a log-structured cache as a buffer in front of the main set-associative cache. When moving objects from log-structured cache to set-associative cache, it groups object together
 
 ### Expire related solution
 Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
@@ -254,11 +264,11 @@ Enhancing the Scalability of Memcached [Langston, 2012]
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODk2ODI5MCwtODgxNDQ5MDIxLC0yMz
-Q2MzU4NjksMzY4OTE3NjIzLC0xMzU1OTg3MTU0LDEyMzY0NzY0
-MjYsLTYyNzgyODE0NCw1MjgzMDUzOSwyMTA0MzM0NjY4LDEwND
-AwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4NDkxLDU2MjY5MTMz
-MSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNTg4NTQ4MTUxLC05OD
-I2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3NTE1LC04ODA5NzE3
-Nl19
+eyJoaXN0b3J5IjpbMjYzOTEwMzI0LC04Nzg5NjgyOTAsLTg4MT
+Q0OTAyMSwtMjM0NjM1ODY5LDM2ODkxNzYyMywtMTM1NTk4NzE1
+NCwxMjM2NDc2NDI2LC02Mjc4MjgxNDQsNTI4MzA1MzksMjEwND
+MzNDY2OCwxMDQwMDg0NDI4LC03NzgzNjc4MDcsMjA0OTMzODQ5
+MSw1NjI2OTEzMzEsMjAxOTcxMTY0Nyw1Njc4NTUzMjMsMTU4OD
+U0ODE1MSwtOTgyNjE0NTg0LDExMzc1ODMxMDYsLTIxODYwNzUx
+NV19
 -->
