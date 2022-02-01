@@ -126,7 +126,7 @@ Kangaroo: Caching Billions of Tiny Objects on Flash [Sara McAllister, SOSP'2021]
 	- flash can only write in block granularity, typically of size 4KB. As a result, writing tiny objects to flash suffer from huge write amplication. Flash device has write endurance, to ensure flash's life time, production system typically will limits flash device's write rate.
 	- naive log-structured cache amortize flash writes by wrting objects to a dram buffer first. It keeps a full in-memory indexs for objects in the flash for fast access, thus it is limited by dram capacity. Not enough dram will limit the indexable flash space (effective cache size).
 	- naive set-associative cache partition flash into different sets. object's location are determine by it hashed value. Each set typically has size of 4KB or multiple of flash writable block size. The problem is when directly writing tiny object to set-associative cache, entire block need to be rewritten, thus huge write amplications. As a result many objects could be blocked from entering flash due to limited write rate, thus causes high cache misses.
-	- This work's design placed a log-structured cache as a buffer in front of the main set-associative cache. When moving objects from log-structured cache to set-associative cache, it groups objects belong to the same set together. This way it can write more than one object to the set associative cache at once, thus reduces write amplication. 
+	- This work's design placed a log-structured cache as a buffer in front of the main set-associative cache. When moving objects from log-structured cache to set-associative cache, it groups objects belong to the same set together. This way it can write more than one object to the set associative cache at once, thus reduces write amplication. The log structured cache is 5-10% of avaliable flash space, with table partition and other tweaks, the dram utilization are also really low compare to  the full log structured cache design.
 
 ### Expire related solution
 Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
@@ -264,11 +264,11 @@ Enhancing the Scalability of Memcached [Langston, 2012]
 A Survey of Non-Volatile Main Memory Technologies: State-of-the-Arts, Practices, and Future Directions [Hai-kun Liu, 2020]
 - https://arxiv.org/pdf/2010.04406.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQyNDkyNzAsLTg3ODk2ODI5MCwtOD
-gxNDQ5MDIxLC0yMzQ2MzU4NjksMzY4OTE3NjIzLC0xMzU1OTg3
-MTU0LDEyMzY0NzY0MjYsLTYyNzgyODE0NCw1MjgzMDUzOSwyMT
-A0MzM0NjY4LDEwNDAwODQ0MjgsLTc3ODM2NzgwNywyMDQ5MzM4
-NDkxLDU2MjY5MTMzMSwyMDE5NzExNjQ3LDU2Nzg1NTMyMywxNT
-g4NTQ4MTUxLC05ODI2MTQ1ODQsMTEzNzU4MzEwNiwtMjE4NjA3
-NTE1XX0=
+eyJoaXN0b3J5IjpbLTExNzc1NzA0OTQsLTExODQyNDkyNzAsLT
+g3ODk2ODI5MCwtODgxNDQ5MDIxLC0yMzQ2MzU4NjksMzY4OTE3
+NjIzLC0xMzU1OTg3MTU0LDEyMzY0NzY0MjYsLTYyNzgyODE0NC
+w1MjgzMDUzOSwyMTA0MzM0NjY4LDEwNDAwODQ0MjgsLTc3ODM2
+NzgwNywyMDQ5MzM4NDkxLDU2MjY5MTMzMSwyMDE5NzExNjQ3LD
+U2Nzg1NTMyMywxNTg4NTQ4MTUxLC05ODI2MTQ1ODQsMTEzNzU4
+MzEwNl19
 -->
