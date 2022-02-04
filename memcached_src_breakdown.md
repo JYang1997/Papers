@@ -8,9 +8,20 @@ after 3-4 cores, throughput significantly degrade.
 [https://github.com/memcached/memcached/blob/master/doc/protocol.txt](https://github.com/memcached/memcached/blob/master/doc/protocol.txt)
 
 ## Check here for full official documentation of binary protocol commands.
-[https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped](https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped) 
------------------------------------------------------
 
+[https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped](https://github.com/memcached/memcached/wiki/BinaryProtocolRevamped)
+
+## Segmented LRU
+
+- Memcached originally have 255 slab classes avaliable  by default (exclude the "special" slab[0]). The item stores its slab class id in `uint8_t slabs_clsid`. 
+- Segment LRU replacement breaks LRU list into four different sub-list.
+	- HOT_LRU, WARM_LRU, COLD_LRU, TEMP_LRU
+- newer version reduces the default slab class number to 63, this way, it can simply separate original 255 LRU list into segment-LRU each with 4 sublist.
+- See [https://memcached.org/blog/modern-lru/](https://memcached.org/blog/modern-lru/) for higher level description of memcached's segment LRU mechanism. **(read this before continue)**
+- Few notes:
+	- `do_item_bump` moves active item in the cold queue to warm queue **asynchronously**. The item will be append to a `bump_buffer`, then the background maintainer thread will move these items to warm queue. The `bump_buffer` size is limited, during burst, when the buffer is full, it will no longer append new item to it.
+	-  
+------------------------------------------------------------
 
 ## Memcached - Slabs.c
 -----------------------------------------------------
@@ -86,12 +97,6 @@ static int grow_slab_list (const unsigned int id);
 ## Memcached - items.{c, h}
 -----------------------------------------------------
 
-### Segmented LRU
-
-- Memcached originally have 255 slab classes avaliable  by default (exclude the "special" slab[0]). The item stores its slab class id in `uint8_t slabs_clsid`. 
-- Segment LRU replacement breaks LRU list into four different sub-list.
-	- HOT_LRU, WARM_LRU, COLD_LRU, TEMP_LRU
-------------------------------------------------------------
 ```c
 /**
 * Structure for storing items within memcached.
@@ -168,9 +173,10 @@ int  lru_pull_tail(const int orig_id,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYwMzY5MywxNTc5NTU2MTg2LC05OT
-EwMTQ5OCwtODQzODE3MTg3LC0xNzEyNDk5Mzc1LDEzNzkxMDYw
-MzQsMzMwMjgyNzQ0LC0xODk2MjIyOTI0LC04NDUzNTc1NiwtMT
-Q0MzU4NDU4OSwyMDI1NjkxMDczLC0xNzkzNDAxOTgyLC0yMzY2
-OTI4MjYsLTM0NTEzOTQ0Nyw4Mjc1NjI4NTRdfQ==
+eyJoaXN0b3J5IjpbMjAxMjQwNTA3NCwtMTA2NjAzNjkzLDE1Nz
+k1NTYxODYsLTk5MTAxNDk4LC04NDM4MTcxODcsLTE3MTI0OTkz
+NzUsMTM3OTEwNjAzNCwzMzAyODI3NDQsLTE4OTYyMjI5MjQsLT
+g0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMjU2OTEwNzMsLTE3OTM0
+MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LDgyNzU2Mjg1NF
+19
 -->
