@@ -20,7 +20,7 @@ after 3-4 cores, throughput significantly degrade.
 - See [https://memcached.org/blog/modern-lru/](https://memcached.org/blog/modern-lru/) for higher level description of memcached's segment LRU mechanism. **(read this before continue)**
 - Few notes:
 	- `do_item_bump` moves active item in the cold queue to warm queue **asynchronously**. The item will be append to a `bump_buffer`, then the background maintainer thread will move these items to warm queue. The `bump_buffer` size is limited, during burst, when the buffer is full, it will no longer append new item to it.
-	-  
+	-  All worker threads don't actively `bump` warm queue, or push items from hot/warm to cold. These jobs are all done by the maintainer thread. Maintainer thread is responsible for maintaining the segment LRU states.
 ------------------------------------------------------------
 
 ## Memcached - Slabs.c
@@ -173,7 +173,7 @@ int  lru_pull_tail(const int orig_id,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjQwNTA3NCwtMTA2NjAzNjkzLDE1Nz
+eyJoaXN0b3J5IjpbLTk1ODEwNjM5NywtMTA2NjAzNjkzLDE1Nz
 k1NTYxODYsLTk5MTAxNDk4LC04NDM4MTcxODcsLTE3MTI0OTkz
 NzUsMTM3OTEwNjAzNCwzMzAyODI3NDQsLTE4OTYyMjI5MjQsLT
 g0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMjU2OTEwNzMsLTE3OTM0
