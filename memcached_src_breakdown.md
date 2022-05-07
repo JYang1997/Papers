@@ -171,12 +171,17 @@ int  lru_pull_tail(const int orig_id,
 ## Memcached - threads.c
 -----------------------------------------------------
 
+## Memcached - Drive Machine
+------------------------------------------------------------------
+Overview diagram from:
+- https://holmeshe.me/understanding-memcached-source-code-IX/#To-go
+![Drive Machine Pic](https://github.com/JYang1997/Papers/blob/main/imgs/memcached-state-machine.png)
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODEwNjM5NywtMTA2NjAzNjkzLDE1Nz
-k1NTYxODYsLTk5MTAxNDk4LC04NDM4MTcxODcsLTE3MTI0OTkz
-NzUsMTM3OTEwNjAzNCwzMzAyODI3NDQsLTE4OTYyMjI5MjQsLT
-g0NTM1NzU2LC0xNDQzNTg0NTg5LDIwMjU2OTEwNzMsLTE3OTM0
-MDE5ODIsLTIzNjY5MjgyNiwtMzQ1MTM5NDQ3LDgyNzU2Mjg1NF
-19
+eyJoaXN0b3J5IjpbMTU4ODM2Nzc0MCwtOTU4MTA2Mzk3LC0xMD
+Y2MDM2OTMsMTU3OTU1NjE4NiwtOTkxMDE0OTgsLTg0MzgxNzE4
+NywtMTcxMjQ5OTM3NSwxMzc5MTA2MDM0LDMzMDI4Mjc0NCwtMT
+g5NjIyMjkyNCwtODQ1MzU3NTYsLTE0NDM1ODQ1ODksMjAyNTY5
+MTA3MywtMTc5MzQwMTk4MiwtMjM2NjkyODI2LC0zNDUxMzk0ND
+csODI3NTYyODU0XX0=
 -->
